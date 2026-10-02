@@ -1,5 +1,5 @@
-# Robot que busca avisos nuevos y actualiza docs/jobs.json.
-# Corre solo 3 veces por día; también se puede correr a mano desde la pestaña "Actions".
+﻿# Robot que busca avisos nuevos y actualiza docs/jobs.json.
+# Corre solo 3 veces por dÃ­a; tambiÃ©n se puede correr a mano desde la pestaÃ±a "Actions".
 name: Actualizar avisos
 
 on:
@@ -7,7 +7,7 @@ on:
     # GitHub usa hora UTC (Argentina + 3): 11, 17 y 23 UTC = 8, 14 y 20 hs en Argentina.
     # Ojo: GitHub a veces arranca el robot unos minutos tarde.
     - cron: "0 11,17,23 * * *"
-  workflow_dispatch: # botón "Run workflow" para correrlo a mano
+  workflow_dispatch: # botÃ³n "Run workflow" para correrlo a mano
 
 permissions:
   contents: write # le da permiso al robot para guardar el jobs.json en el repo
@@ -20,16 +20,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Bajar el código del repo
-        uses: actions/checkout@v4
+      - name: Bajar el cÃ³digo del repo
+        uses: actions/checkout@v5
 
       - name: Instalar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
 
-      - name: Instalar librerías
+      - name: Instalar librerÃ­as
         run: pip install -r requirements.txt
 
       - name: Buscar avisos
