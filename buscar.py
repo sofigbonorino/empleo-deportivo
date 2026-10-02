@@ -48,6 +48,15 @@ DEPORTE = re.compile(
     r"|automovilismo|\bgolf\b|\bpadel\b|\bliga\b|\bole\b|\btyc\b|\bespn\b|fitness|running"
 )
 
+# Zona: su hermano vive en AMBA. Los presenciales/híbridos tienen que ser en
+# CABA o provincia de Buenos Aires, menos las ciudades lejanas de esta lista.
+AMBA = re.compile(r"capital federal|caba|ciudad autonoma|buenos aires|gba|amba")
+LEJOS_DE_AMBA = re.compile(
+    r"mar del plata|bahia blanca|tandil|pinamar|costa esmeralda|villa gesell|necochea"
+    r"|olavarria|azul|junin|pergamino|san nicolas|tres arroyos|chivilcoy|mar de ajo"
+    r"|san clemente|miramar|balcarce|bragado|9 de julio|nueve de julio|trenque lauquen"
+)
+
 
 def main():
     ahora = datetime.now(ARGENTINA)
@@ -67,10 +76,10 @@ def main():
             estado[nombre] = {"ok": False, "error": str(e)[:200]}
             print(f"FALLÓ {nombre}: {e}")
 
-    # 2 y 3. Filtrar y deduplicar
+    # 2 y 3. Filtrar (tema y zona) y deduplicar
     nuevos = {}
     for a in crudos:
-        if not es_relevante(a):
+        if not (es_relevante(a) and en_zona(a)):
             continue
         a["id"] = clave(a)
         nuevos.setdefault(a["id"], a)  # si ya estaba, se queda el primero
@@ -86,7 +95,10 @@ def main():
         anteriores[id_] = a
 
     limite = (ahora - timedelta(days=DIAS_SIN_VER_PARA_BORRAR)).date().isoformat()
-    avisos = [a for a in anteriores.values() if a["ultima_vez"] >= limite]
+    # Los filtros se vuelven a pasar sobre todo lo guardado: si cambiamos una
+    # regla, los avisos viejos que ya no la cumplen también se van.
+    avisos = [a for a in anteriores.values()
+              if a["ultima_vez"] >= limite and es_relevante(a) and en_zona(a)]
     avisos.sort(key=lambda a: (a["primera_vez"], a["fecha"]), reverse=True)
 
     ARCHIVO.parent.mkdir(exist_ok=True)
@@ -113,6 +125,14 @@ def es_relevante(aviso):
         return bool(DEPORTE.search(normalizar(aviso["titulo"])))
     texto = normalizar(aviso["titulo"] + " " + aviso["empresa"])
     return bool(MEDIOS.search(texto) and DEPORTE.search(texto))
+
+
+def en_zona(aviso):
+    """Remoto o sin ubicación: sirve. Presencial/híbrido: solo si es en AMBA."""
+    if aviso["modalidad"] == "Remoto" or not aviso["ubicacion"]:
+        return True
+    lugar = normalizar(aviso["ubicacion"])
+    return bool(AMBA.search(lugar)) and not LEJOS_DE_AMBA.search(lugar)
 
 
 def clave(aviso):

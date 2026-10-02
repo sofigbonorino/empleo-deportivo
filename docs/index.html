@@ -5,116 +5,161 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Laburo Deportivo</title>
 <meta name="description" content="Avisos de periodismo y contenido deportivo, actualizados tres veces por día.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏉</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@900&display=swap">
 <style>
+  /* Diseño "recortes de diario pegados en un corcho".
+     Es el mismo en modo claro y oscuro: el corcho y el papel no cambian de color. */
   :root {
-    --fondo: #f4f5f2;
-    --tarjeta: #ffffff;
-    --texto: #1c2321;
-    --suave: #5d6763;
-    --borde: #dde1dc;
-    --acento: #157a4a;
-    --acento-texto: #ffffff;
-    --nuevo: #e8a317;
-    --nuevo-texto: #2b1d00;
+    --corcho: #c99e6b;
+    --papel: #f5efe1;
+    --tinta: #1d1a16;
+    --tinta-suave: #5b544a;
+    --tinta-corcho: #2b2014;   /* texto escrito directo sobre el corcho */
+    --punteado: #b7aa90;
+    --pastilla: #cfc3a8;
+    --nuevo: #b3261e;
     --error-fondo: #fdecea;
     --error-texto: #8a1c12;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --fondo: #121614;
-      --tarjeta: #1b211e;
-      --texto: #e8ece9;
-      --suave: #9aa59f;
-      --borde: #2c3530;
-      --acento: #3ec482;
-      --acento-texto: #08130d;
-      --nuevo: #f2b632;
-      --nuevo-texto: #2b1d00;
-      --error-fondo: #3a1d1a;
-      --error-texto: #ffb4aa;
-    }
   }
 
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    background: var(--fondo);
-    color: var(--texto);
-    font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    color: var(--tinta);
+    font: 16px/1.45 "PT Serif", Georgia, serif;
+    /* Corcho: dos capas de puntitos de distinto tono */
+    background-color: var(--corcho);
+    background-image:
+      radial-gradient(#b88a57 1.2px, transparent 1.3px),
+      radial-gradient(#d8b386 1px, transparent 1.1px);
+    background-size: 9px 9px, 13px 13px;
+    background-position: 0 0, 4px 6px;
   }
-  .contenedor { max-width: 720px; margin: 0 auto; padding: 0 16px 48px; }
+  .contenedor { max-width: 1120px; margin: 0 auto; padding: 0 16px 48px; }
 
-  header { padding: 24px 0 8px; }
-  h1 { margin: 0; font-size: 1.6rem; letter-spacing: -0.02em; }
-  .actualizado { margin: 4px 0 0; color: var(--suave); font-size: 0.9rem; }
-
+  /* Cabezal: el título también es un recorte */
+  header { padding: 24px 0 8px; text-align: center; }
+  h1 {
+    display: inline-block; margin: 0; padding: 8px 18px;
+    background: var(--papel); transform: rotate(-1.5deg);
+    font-family: "Playfair Display", Georgia, serif; font-weight: 900;
+    font-size: clamp(1.8rem, 7vw, 3rem); letter-spacing: -0.01em;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 0.25);
+  }
+  .actualizado { margin: 12px 0 0; color: var(--tinta-corcho); font-weight: 700; font-size: 0.9rem; }
   .alerta {
-    margin: 12px 0 0; padding: 10px 12px; border-radius: 10px;
+    margin: 12px auto 0; max-width: 520px; padding: 10px 12px; border-radius: 10px;
     background: var(--error-fondo); color: var(--error-texto); font-size: 0.9rem;
   }
 
-  /* Filtros: fila de "chips" que se puede deslizar con el dedo */
-  .filtros {
-    position: sticky; top: 0; z-index: 1;
-    background: var(--fondo);
-    padding: 12px 0 8px;
-    border-bottom: 1px solid var(--borde);
+  /* Solapas: dos botones pegados que ocupan todo el ancho */
+  .filtros { padding: 12px 0 0; }
+  .solapas {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 4px;
+    padding: 4px; margin-bottom: 10px; max-width: 520px;
+    background: rgb(0 0 0 / 0.25); border-radius: 12px;
   }
+  .solapa {
+    border: 0; border-radius: 9px; padding: 9px 8px;
+    background: transparent; color: #fff;
+    font: inherit; font-size: 0.9rem; font-weight: 700; cursor: pointer;
+  }
+  .solapa[aria-pressed="true"] {
+    background: var(--papel); color: var(--tinta);
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.12);
+  }
+  .solapa .n, .chip .n { opacity: 0.65; font-weight: normal; margin-left: 5px; }
+
+  /* Filtros: fila de "chips" que se puede deslizar con el dedo */
   .fila {
-    display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px;
+    display: flex; gap: 8px; overflow-x: auto; padding-bottom: 8px;
     scrollbar-width: none;
   }
   .fila::-webkit-scrollbar { display: none; }
   .chip {
     flex: none;
-    border: 1px solid var(--borde); background: var(--tarjeta); color: var(--texto);
+    border: 0; background: var(--papel); color: var(--tinta);
     border-radius: 999px; padding: 7px 14px; font: inherit; font-size: 0.9rem;
     cursor: pointer; white-space: nowrap;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.2);
   }
-  .chip[aria-pressed="true"] {
-    background: var(--acento); border-color: var(--acento); color: var(--acento-texto);
-    font-weight: 600;
+  .chip[aria-pressed="true"] { background: var(--tinta); color: var(--papel); font-weight: 700; }
+
+  .resumen { color: var(--tinta-corcho); font-weight: 700; font-size: 0.9rem; margin: 10px 0 14px; }
+
+  /* Avisos: recortes en grilla (una columna en el celu, dos o tres en la compu) */
+  ul {
+    list-style: none; margin: 0; padding: 10px 0 0;
+    display: grid; gap: 26px 20px;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
   }
-  .chip .n { opacity: 0.7; font-weight: normal; margin-left: 4px; }
-
-  .resumen { color: var(--suave); font-size: 0.9rem; margin: 14px 0 10px; }
-
-  /* Tarjetas de avisos */
-  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .aviso { position: relative; }
   .aviso a {
-    display: block; text-decoration: none; color: inherit;
-    background: var(--tarjeta); border: 1px solid var(--borde);
-    border-radius: 14px; padding: 14px 16px;
+    display: flex; flex-direction: column; height: 100%;
+    text-decoration: none; color: inherit; background: var(--papel);
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.3);
+    outline: 1px dashed var(--punteado); outline-offset: -8px;  /* línea de "cortar acá" */
+    transition: transform 0.15s, box-shadow 0.15s;
   }
-  .aviso a:hover, .aviso a:focus-visible { border-color: var(--acento); }
-  .aviso.es-nuevo a { border-left: 4px solid var(--nuevo); }
-  .titulo { margin: 0; font-size: 1.05rem; font-weight: 650; overflow-wrap: anywhere; }
-  .empresa { margin: 2px 0 0; color: var(--suave); }
-  .datos {
-    display: flex; flex-wrap: wrap; gap: 6px 12px; margin-top: 10px;
-    font-size: 0.85rem; color: var(--suave);
+  /* Cada recorte, un poquito torcido */
+  .aviso:nth-child(3n+1) a { transform: rotate(-1.2deg); }
+  .aviso:nth-child(3n+2) a { transform: rotate(0.9deg); }
+  .aviso:nth-child(3n) a { transform: rotate(-0.4deg); }
+  .aviso a:hover, .aviso a:focus-visible { transform: rotate(0) scale(1.02); box-shadow: 0 8px 18px rgb(0 0 0 / 0.35); }
+  /* Cinta adhesiva arriba */
+  .aviso::before {
+    content: ""; position: absolute; z-index: 1; top: -10px; left: 50%;
+    width: 90px; height: 22px; margin-left: -45px;
+    background: rgb(255 255 240 / 0.6); transform: rotate(-3deg);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.15);
   }
-  .etiqueta {
-    display: inline-block; font-size: 0.75rem; font-weight: 700;
-    padding: 2px 8px; border-radius: 6px; margin-right: 6px; vertical-align: 2px;
-  }
-  .etiqueta.nuevo { background: var(--nuevo); color: var(--nuevo-texto); }
-  .etiqueta.modo { border: 1px solid var(--borde); color: var(--texto); font-weight: 600; }
 
-  .vacio { text-align: center; color: var(--suave); padding: 40px 16px; }
-  footer { margin-top: 32px; color: var(--suave); font-size: 0.8rem; text-align: center; }
+  .cabeza {
+    display: flex; justify-content: space-between; align-items: center; gap: 8px;
+    padding: 18px 16px 0;
+    font-size: 0.7rem; font-weight: 700; color: var(--tinta-suave);
+    text-transform: uppercase; letter-spacing: 0.15em;
+  }
+  .etiqueta.nuevo {
+    background: var(--nuevo); color: #fff; transform: rotate(-4deg);
+    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.05em;
+    padding: 3px 8px; border-radius: 4px;
+  }
+  .cuerpo { padding: 8px 16px 14px; flex: 1; }
+  .titulo {
+    margin: 0; font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.25rem; line-height: 1.25; overflow-wrap: anywhere;
+  }
+  .empresa { margin: 4px 0 0; color: var(--tinta-suave); font-style: italic; }
+  .datos { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .dato { font-size: 0.8rem; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--pastilla); }
+
+  .pie {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 10px 16px 14px; border-top: 1px dashed var(--punteado);
+    font-size: 0.85rem; color: var(--tinta-suave);
+  }
+  .ver { color: var(--tinta); font-weight: 700; }
+
+  .vacio {
+    grid-column: 1 / -1; text-align: center; padding: 32px 16px;
+    background: var(--papel); box-shadow: 0 4px 10px rgb(0 0 0 / 0.3);
+  }
+  footer { margin-top: 36px; color: var(--tinta-corcho); font-size: 0.85rem; text-align: center; }
 </style>
 </head>
 <body>
 <div class="contenedor">
   <header>
-    <h1>⚽ Laburo Deportivo</h1>
+    <h1>🏉 Laburo Deportivo</h1>
     <p class="actualizado" id="actualizado">Cargando avisos…</p>
     <div id="alertas"></div>
   </header>
 
   <div class="filtros">
+    <div class="solapas" id="solapas"></div>
     <div class="fila" id="filtro-nuevos"></div>
     <div class="fila" id="filtro-modalidad"></div>
     <div class="fila" id="filtro-fuente"></div>
@@ -134,7 +179,7 @@
   const MODALIDADES = ["Remoto", "Híbrido", "Presencial", "Sin dato"];
 
   // Lo que eligió la persona en los filtros
-  const elegido = { soloNuevos: false, modalidad: "Todas", fuente: "Todas" };
+  const elegido = { exterior: false, soloNuevos: false, modalidad: "Todas", fuente: "Todas" };
   let avisos = [];
 
   fetch("jobs.json", { cache: "no-store" })
@@ -170,11 +215,30 @@
   function dibujar() {
     // Cada filtro cuenta cuántos avisos hay teniendo en cuenta los OTROS filtros
     const pasa = (a, ignorar) =>
+      (ignorar === "solapa" || !!a.exterior === elegido.exterior) &&
       (ignorar === "nuevos" || !elegido.soloNuevos || a.nuevo) &&
       (ignorar === "modalidad" || elegido.modalidad === "Todas" || a.modalidad === elegido.modalidad) &&
       (ignorar === "fuente" || elegido.fuente === "Todas" || a.fuente === elegido.fuente);
 
     const contar = (ignorar, cond) => avisos.filter(a => pasa(a, ignorar) && cond(a)).length;
+
+    // Solapas: al cambiar de solapa se limpian los otros filtros
+    const solapas = document.getElementById("solapas");
+    solapas.replaceChildren(...[
+      { texto: "📍 Argentina y remoto", exterior: false },
+      { texto: "🌎 Freelance exterior", exterior: true },
+    ].map(s => {
+      const b = document.createElement("button");
+      b.className = "solapa";
+      b.setAttribute("aria-pressed", elegido.exterior === s.exterior);
+      const n = avisos.filter(a => !!a.exterior === s.exterior).length;
+      b.innerHTML = `${s.texto}<span class="n">${n}</span>`;
+      b.onclick = () => {
+        Object.assign(elegido, { exterior: s.exterior, soloNuevos: false, modalidad: "Todas", fuente: "Todas" });
+        dibujar();
+      };
+      return b;
+    }));
 
     chips("filtro-nuevos", [
       { texto: "Todos", n: contar("nuevos", () => true), activo: !elegido.soloNuevos,
@@ -235,17 +299,25 @@
 
   function tarjeta(a) {
     const li = document.createElement("li");
-    li.className = "aviso" + (a.nuevo ? " es-nuevo" : "");
-    const lugar = a.ubicacion ? `📍 ${escapar(a.ubicacion)}` : "";
+    li.className = "aviso";
+    const iconoModo = { "Remoto": "🏠", "Híbrido": "🔀", "Presencial": "🏢" }[a.modalidad] || "❔";
     li.innerHTML = `
       <a href="${escapar(a.link)}" target="_blank" rel="noopener">
-        <p class="titulo">${a.nuevo ? '<span class="etiqueta nuevo">NUEVO</span>' : ""}${escapar(a.titulo)}</p>
-        ${a.empresa ? `<p class="empresa">${escapar(a.empresa)}</p>` : ""}
-        <div class="datos">
-          <span><span class="etiqueta modo">${escapar(a.modalidad)}</span></span>
-          ${lugar ? `<span>${lugar}</span>` : ""}
+        <div class="cabeza">
+          <span>${escapar(a.fuente)}</span>
+          ${a.nuevo ? '<span class="etiqueta nuevo">NUEVO</span>' : ""}
+        </div>
+        <div class="cuerpo">
+          <p class="titulo">${escapar(a.titulo)}</p>
+          ${a.empresa ? `<p class="empresa">${escapar(a.empresa)}</p>` : ""}
+          <div class="datos">
+            <span class="dato">${iconoModo} ${escapar(a.modalidad)}</span>
+            ${a.ubicacion ? `<span class="dato">📍 ${escapar(a.ubicacion)}</span>` : ""}
+          </div>
+        </div>
+        <div class="pie">
           <span>📅 ${fechaLinda(a.fecha)}</span>
-          <span>🔗 ${escapar(a.fuente)}</span>
+          <span class="ver">Ver aviso →</span>
         </div>
       </a>`;
     return li;

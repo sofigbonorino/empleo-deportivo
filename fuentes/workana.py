@@ -18,6 +18,14 @@ BASE = "https://www.workana.com"
 BUSQUEDAS = ["deportes", "deportivo", "futbol", "periodista deportivo", "redactor deportes"]
 PAGINAS_POR_BUSQUEDA = 2
 
+PAISES = {
+    "AR": "Argentina", "MX": "México", "CO": "Colombia", "CL": "Chile", "PE": "Perú",
+    "UY": "Uruguay", "PY": "Paraguay", "BO": "Bolivia", "EC": "Ecuador", "VE": "Venezuela",
+    "ES": "España", "US": "Estados Unidos", "BR": "Brasil", "CR": "Costa Rica",
+    "PA": "Panamá", "DO": "Rep. Dominicana", "GT": "Guatemala", "NL": "Países Bajos",
+    "IT": "Italia", "DE": "Alemania", "FR": "Francia", "GB": "Reino Unido", "CA": "Canadá",
+}
+
 
 def buscar(ahora):
     avisos = []
@@ -41,11 +49,14 @@ def buscar(ahora):
                 avisos.append({
                     "titulo": titulo,
                     "empresa": "",
-                    "ubicacion": "Freelance" + (f" · cliente de {pais.group(1)}" if pais else ""),
+                    "ubicacion": "Freelance" + (
+                        f" · cliente de {PAISES.get(pais.group(1), pais.group(1))}" if pais else ""),
                     "modalidad": "Remoto",
                     "fecha": fecha(p.get("postedDate") or "", ahora),
                     "fuente": "Workana",
                     "link": f"{BASE}/job/{p['slug']}",
+                    # Cliente de otro país: la página lo muestra en una solapa aparte
+                    "exterior": bool(pais) and pais.group(1) != "AR",
                 })
 
             time.sleep(1)
