@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-02T15:53-03:00",
+  "actualizado": "2026-10-02T18:08-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 327
+      "leidos": 332
     },
     "Bumeran": {
       "ok": true,
@@ -31,7 +31,7 @@
     },
     "Disney (ESPN)": {
       "ok": true,
-      "leidos": 4
+      "leidos": 5
     }
   },
   "avisos": [
