@@ -1,0 +1,44 @@
+# Robot que busca avisos nuevos y actualiza docs/jobs.json.
+# Corre solo 3 veces por día; también se puede correr a mano desde la pestaña "Actions".
+name: Actualizar avisos
+
+on:
+  schedule:
+    # GitHub usa hora UTC (Argentina + 3): 11, 17 y 23 UTC = 8, 14 y 20 hs en Argentina.
+    # Ojo: GitHub a veces arranca el robot unos minutos tarde.
+    - cron: "0 11,17,23 * * *"
+  workflow_dispatch: # botón "Run workflow" para correrlo a mano
+
+permissions:
+  contents: write # le da permiso al robot para guardar el jobs.json en el repo
+
+concurrency:
+  group: actualizar-avisos # si una corrida se atrasa, no se pisan dos a la vez
+
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Bajar el código del repo
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar librerías
+        run: pip install -r requirements.txt
+
+      - name: Buscar avisos
+        run: python buscar.py
+
+      - name: Guardar el jobs.json nuevo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/jobs.json
+          git diff --staged --quiet || git commit -m "Avisos actualizados $(TZ=America/Argentina/Buenos_Aires date '+%Y-%m-%d %H:%M')"
+          git push
