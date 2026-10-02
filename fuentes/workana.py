@@ -16,7 +16,9 @@ from .comun import HEADERS, fecha
 
 BASE = "https://www.workana.com"
 BUSQUEDAS = ["deportes", "deportivo", "futbol", "periodista deportivo", "redactor deportes"]
-PAGINAS_POR_BUSQUEDA = 2
+# Workana ordena por relevancia y no por fecha: hay avisos de hoy en páginas
+# del fondo, así que se recorren todas (hasta 10). Lo viejo lo descarta buscar.py.
+PAGINAS_POR_BUSQUEDA = 10
 
 PAISES = {
     "AR": "Argentina", "MX": "México", "CO": "Colombia", "CL": "Chile", "PE": "Perú",

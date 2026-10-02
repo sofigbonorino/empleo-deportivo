@@ -25,7 +25,7 @@ BUSQUEDAS = [
     "locutor", "comunicador", "prensa", "creador de contenido",
     "deportes", "deportivo", "futbol",
 ]
-PAGINAS_POR_BUSQUEDA = 2
+PAGINAS_POR_BUSQUEDA = 10  # Computrabajo muestra ~1 mes de avisos; se corta antes si no hay más
 
 
 def buscar(ahora):

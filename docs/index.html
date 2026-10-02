@@ -394,7 +394,11 @@
     .then(r => r.json())
     .then(datos => {
       datosJson = datos;
-      avisos = datos.avisos.map(a => ({ ...a, nuevo: a.primera_vez === HOY }));
+      // "Nuevo" = el robot lo vio hoy por primera vez Y se publicó hace 2 días o menos
+      // (así un aviso de hace 3 semanas que recién encontramos no aparece como nuevo).
+      avisos = datos.avisos.map(a => ({
+        ...a, nuevo: a.primera_vez === HOY && diasEntre(a.fecha, HOY) <= 2,
+      }));
       mostrarEncabezado(datos);
       dibujar();
       dibujarInfo();

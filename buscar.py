@@ -49,6 +49,14 @@ DEPORTE = re.compile(
     r"deport|(?<!tran)sport|futbol|\bclub\b|hockey|rugby|tenis|basquet|\bvoley|boxeo"
     r"|automovilismo|\bgolf\b|\bpadel\b|\bliga\b|\bole\b|\btyc\b|\bespn\b|fitness|running"
 )
+# Trabajos de programación o diseño web que se cuelan por palabras como "streaming" o "contenidos".
+NO_ES_DE_MEDIOS = re.compile(
+    r"desarrollo de (plataforma|app|aplicacion|software|sitio)|developer|programador|full ?stack"
+    r"|backend|frontend|diseno web|wordpress|elementor|shopify"
+)
+# Solo interesa lo publicado en el último mes.
+DIAS_MAXIMOS_DESDE_PUBLICACION = 31
+
 # Su hermano no quiere pasantías ni trabajos sin paga.
 NO_PAGO = re.compile(
     r"pasant|practicante|\bpracticas\b|voluntari|ad[ -]?honorem|sin remuneracion"
@@ -83,10 +91,13 @@ def main():
             estado[nombre] = {"ok": False, "error": str(e)[:200]}
             print(f"FALLÓ {nombre}: {e}")
 
-    # 2 y 3. Filtrar (tema y zona) y deduplicar
+    # 2 y 3. Filtrar (tema, zona y antigüedad) y deduplicar
+    hace_un_mes = (ahora - timedelta(days=DIAS_MAXIMOS_DESDE_PUBLICACION)).date().isoformat()
     nuevos = {}
     for a in crudos:
         if not (es_relevante(a) and en_zona(a)):
+            continue
+        if a["fecha"] and a["fecha"] < hace_un_mes:
             continue
         a["id"] = clave(a)
         nuevos.setdefault(a["id"], a)  # si ya estaba, se queda el primero
@@ -126,7 +137,8 @@ def normalizar(texto):
 
 
 def es_relevante(aviso):
-    if NO_PAGO.search(normalizar(aviso["titulo"] + " " + aviso["empresa"])):
+    texto_completo = normalizar(aviso["titulo"] + " " + aviso["empresa"])
+    if NO_PAGO.search(texto_completo) or NO_ES_DE_MEDIOS.search(texto_completo):
         return False
     if aviso.get("de_medio"):
         # Viene de la bolsa de trabajo de un medio: ya sabemos que es de medios,
