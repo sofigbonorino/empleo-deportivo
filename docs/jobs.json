@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-02T15:34-03:00",
+  "actualizado": "2026-10-02T15:53-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 218
+      "leidos": 327
     },
     "Bumeran": {
       "ok": true,
@@ -15,7 +15,7 @@
     },
     "Workana": {
       "ok": true,
-      "leidos": 42
+      "leidos": 126
     },
     "Clarín": {
       "ok": true,
@@ -57,6 +57,32 @@
       "link": "https://www.workana.com/job/edicion-profesional-de-videos-de-futbol-para-instagram",
       "exterior": true,
       "id": "734d5918c315",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-02"
+    },
+    {
+      "titulo": "Gestión de Redes Sociales (Instagram y Facebook) + Creación de Imágenes para Fitsport Solutions",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de España",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-02",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/gestion-de-redes-sociales-instagram-y-facebook-creacion-de-imagenes-para-fitsport-solutions",
+      "exterior": true,
+      "id": "52ad455e6560",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-02"
+    },
+    {
+      "titulo": "Busco Community Manager para Empresa Deportiva!",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de México",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-02",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/busco-community-manager-para-empresa-deportiva",
+      "exterior": true,
+      "id": "34f3371be3fa",
       "primera_vez": "2026-10-02",
       "ultima_vez": "2026-10-02"
     },
@@ -126,6 +152,32 @@
       "ultima_vez": "2026-10-02"
     },
     {
+      "titulo": "Creación de Edits Dinámicos para Tiktok de Contenido Deportivo y Gaming",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Argentina",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-04",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/creacion-de-edits-dinamicos-para-tiktok-de-contenido-deportivo-y-gaming",
+      "exterior": false,
+      "id": "b014a924e3c5",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-02"
+    },
+    {
+      "titulo": "Editor de Video Creativo para Marca Personal y Contenido Deportivo/Educativo (Reels y Youtube)",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de España",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-04",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/editor-de-video-creativo-para-marca-personal-y-contenido-deportivo-educativo-reels-y-youtube",
+      "exterior": true,
+      "id": "3f9bd4870fc8",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-02"
+    },
+    {
       "titulo": "Buscamos Editores de Contenido para Marca de Moda y Deporte",
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
@@ -161,6 +213,45 @@
       "link": "https://www.workana.com/job/disenador-grafico-para-redes-sociales-de-club-de-futbol-contenido-deportivo",
       "exterior": true,
       "id": "42839040b3a5",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-02"
+    },
+    {
+      "titulo": "Creación de Contenido de Video Dinámico sobre Deportes y Fútbol",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de España",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-02",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/creacion-de-contenido-de-video-dinamico-sobre-deportes-y-futbol",
+      "exterior": true,
+      "id": "638e5e7d4956",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-02"
+    },
+    {
+      "titulo": "Editor de Video Creativo para Reels de Marca Deportiva y Lifestyle",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de España",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-02",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/editor-de-video-creativo-para-reels-de-marca-deportiva-y-lifestyle",
+      "exterior": true,
+      "id": "a9a3196b9d9d",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-02"
+    },
+    {
+      "titulo": "Community Manager y Creador de Contenido para Redes Sociales de Tienda de Nutrición Deportiva",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de España",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-02",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-tienda-de-nutricion-deportiva",
+      "exterior": true,
+      "id": "6388579eef04",
       "primera_vez": "2026-10-02",
       "ultima_vez": "2026-10-02"
     }
