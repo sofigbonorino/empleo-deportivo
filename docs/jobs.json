@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-02T14:27-03:00",
+  "actualizado": "2026-10-02T15:34-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
@@ -44,19 +44,6 @@
       "fuente": "Bumeran",
       "link": "https://www.bumeran.com.ar/empleos/estudiante-de-deporte-|-especialista-audiovisual-|-administrativo-cooperativa-de-trabajo-tic-global-limitada-1118393210.html",
       "id": "61eee0107781",
-      "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-02"
-    },
-    {
-      "titulo": "Pasantías Olé",
-      "empresa": "Clarín",
-      "ubicacion": "Capital Federal, Capital Federal, Argentina",
-      "modalidad": "Presencial",
-      "fecha": "2026-10-02",
-      "fuente": "Clarín",
-      "link": "https://clarin.hiringroom.com/jobs/get_vacancy/68093504253a024357cec8d0",
-      "de_medio": true,
-      "id": "40954963b083",
       "primera_vez": "2026-10-02",
       "ultima_vez": "2026-10-02"
     },
