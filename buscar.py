@@ -35,7 +35,9 @@ FUENTES = [
 
 ARCHIVO = Path(__file__).parent / "docs" / "jobs.json"
 ARGENTINA = timezone(timedelta(hours=-3))  # Argentina no tiene horario de verano
-DIAS_SIN_VER_PARA_BORRAR = 7
+# Un aviso que deja de aparecer en las fuentes queda guardado este tiempo más,
+# por si todavía sigue abierto y él no llegó a postularse.
+DIAS_SIN_VER_PARA_BORRAR = 45
 
 # Palabras sin tildes y en minúscula (el texto se normaliza igual antes de comparar).
 MEDIOS = re.compile(
@@ -46,6 +48,11 @@ MEDIOS = re.compile(
 DEPORTE = re.compile(
     r"deport|(?<!tran)sport|futbol|\bclub\b|hockey|rugby|tenis|basquet|\bvoley|boxeo"
     r"|automovilismo|\bgolf\b|\bpadel\b|\bliga\b|\bole\b|\btyc\b|\bespn\b|fitness|running"
+)
+# Su hermano no quiere pasantías ni trabajos sin paga.
+NO_PAGO = re.compile(
+    r"pasant|practicante|\bpracticas\b|voluntari|ad[ -]?honorem|sin remuneracion"
+    r"|no remunerad|sin goce|\bcanje\b"
 )
 
 # Zona: su hermano vive en AMBA. Los presenciales/híbridos tienen que ser en
@@ -119,6 +126,8 @@ def normalizar(texto):
 
 
 def es_relevante(aviso):
+    if NO_PAGO.search(normalizar(aviso["titulo"] + " " + aviso["empresa"])):
+        return False
     if aviso.get("de_medio"):
         # Viene de la bolsa de trabajo de un medio: ya sabemos que es de medios,
         # alcanza con que el título hable de deporte (ej. "Pasantías Olé").

@@ -5,23 +5,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Laburo Deportivo</title>
 <meta name="description" content="Avisos de periodismo y contenido deportivo, actualizados tres veces por día.">
+<meta name="theme-color" content="#121212">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏉</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap">
 <style>
-  /* Diseño "recortes de diario pegados en un corcho".
-     Es el mismo en modo claro y oscuro: el corcho y el papel no cambian de color. */
+  /* Colores del club como detalle: fondo claro, y el naranja y el negro
+     en el título, la cinta de los recortes, la solapa elegida y los botones.
+     Es el mismo diseño en modo claro y oscuro. */
   :root {
-    --corcho: #c99e6b;
-    --papel: #f5efe1;
-    --tinta: #1d1a16;
-    --tinta-suave: #5b544a;
-    --tinta-corcho: #2b2014;   /* texto escrito directo sobre el corcho */
-    --punteado: #b7aa90;
-    --pastilla: #cfc3a8;
-    --nuevo: #b3261e;
-    --error-fondo: #fdecea;
-    --error-texto: #8a1c12;
+    --fondo: #f1eee8;
+    --fondo-2: #e6e1d8;       /* chips y solapas sin elegir */
+    --negro: #151515;
+    --naranja: #ff6b00;
+    --naranja-claro: #ff8a33;
+    --blanco: #ffffff;
+    --papel: #ffffff;
+    --tinta: #151515;
+    --tinta-suave: #5f5a52;
+    --linea: #e2dbcf;
   }
 
   * { box-sizing: border-box; }
@@ -29,50 +31,69 @@
     margin: 0;
     color: var(--tinta);
     font: 16px/1.45 "PT Serif", Georgia, serif;
-    /* Corcho: dos capas de puntitos de distinto tono */
-    background-color: var(--corcho);
-    background-image:
-      radial-gradient(#b88a57 1.2px, transparent 1.3px),
-      radial-gradient(#d8b386 1px, transparent 1.1px);
-    background-size: 9px 9px, 13px 13px;
-    background-position: 0 0, 4px 6px;
+    background-color: var(--fondo);
+    background-image: radial-gradient(#e4dfd5 1.1px, transparent 1.2px);
+    background-size: 10px 10px;
   }
   .contenedor { max-width: 1120px; margin: 0 auto; padding: 0 16px 48px; }
+  .oswald { font-family: "Oswald", Impact, sans-serif; text-transform: uppercase; }
+  [hidden] { display: none !important; }
 
-  /* Cabezal: el título también es un recorte */
-  header { padding: 24px 0 8px; text-align: center; }
+  /* ---------- Cabezal ---------- */
+  header {
+    margin: 0 -16px; padding: 22px 16px 16px; text-align: center;
+    border-top: 6px solid var(--negro);
+    border-bottom: 4px solid var(--naranja);
+    background: var(--blanco);
+  }
   h1 {
-    display: inline-block; margin: 0; padding: 8px 18px;
-    background: var(--papel); transform: rotate(-1.5deg);
-    font-family: "Playfair Display", Georgia, serif; font-weight: 900;
-    font-size: clamp(1.8rem, 7vw, 3rem); letter-spacing: -0.01em;
-    box-shadow: 0 3px 6px rgb(0 0 0 / 0.25);
+    margin: 0; font-family: "Oswald", Impact, sans-serif; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.01em; line-height: 0.95;
+    font-size: clamp(2.3rem, 10vw, 4.2rem);
   }
-  .actualizado { margin: 12px 0 0; color: var(--tinta-corcho); font-weight: 700; font-size: 0.9rem; }
+  h1 .pelota { display: inline-block; transform: rotate(-20deg); margin-right: 6px; font-size: 0.8em; }
+  h1 .naranja { color: var(--naranja); }
+  .lema { margin: 8px 0 0; color: var(--tinta-suave); font-size: 0.9rem; }
+  .actualizado { margin: 4px 0 0; color: var(--tinta); font-weight: 700; font-size: 0.9rem; }
+
+  .barra {
+    display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 8px 12px;
+    margin-top: 14px; font-size: 0.85rem;
+  }
+  .boton {
+    border: 2px solid var(--negro); background: transparent; color: var(--tinta);
+    border-radius: 999px; padding: 7px 14px; font: inherit; font-weight: 700; cursor: pointer;
+    text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
+  }
+  .boton:hover { background: var(--negro); color: var(--blanco); }
+  .boton.lleno { background: var(--naranja); border-color: var(--naranja); color: var(--negro); }
+  .boton.lleno:hover { background: var(--naranja-claro); border-color: var(--naranja-claro); }
+  .cuenta-texto { color: var(--tinta-suave); }
+  .cuenta-texto b { color: var(--tinta); }
+  .link-suave { background: none; border: 0; color: var(--tinta-suave); text-decoration: underline; font: inherit; cursor: pointer; padding: 0; }
+
   .alerta {
-    margin: 12px auto 0; max-width: 520px; padding: 10px 12px; border-radius: 10px;
-    background: var(--error-fondo); color: var(--error-texto); font-size: 0.9rem;
+    margin: 12px auto 0; max-width: 560px; padding: 10px 12px; border-radius: 10px;
+    background: #fdecea; color: #8a1c12; font-size: 0.9rem; border: 1px solid #f3c2b8;
   }
 
-  /* Solapas: dos botones pegados que ocupan todo el ancho */
-  .filtros { padding: 12px 0 0; }
+  /* ---------- Solapas y filtros ---------- */
+  .filtros { padding: 16px 0 0; }
   .solapas {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 4px;
-    padding: 4px; margin-bottom: 10px; max-width: 520px;
-    background: rgb(0 0 0 / 0.25); border-radius: 12px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 4px;
+    padding: 4px; margin-bottom: 12px; max-width: 760px;
+    background: var(--fondo-2); border-radius: 12px;
   }
   .solapa {
-    border: 0; border-radius: 9px; padding: 9px 8px;
-    background: transparent; color: #fff;
-    font: inherit; font-size: 0.9rem; font-weight: 700; cursor: pointer;
+    border: 0; border-radius: 9px; padding: 10px 8px;
+    background: transparent; color: var(--tinta-suave);
+    font: inherit; font-family: "Oswald", Impact, sans-serif; text-transform: uppercase;
+    font-size: 0.95rem; letter-spacing: 0.03em; cursor: pointer;
   }
-  .solapa[aria-pressed="true"] {
-    background: var(--papel); color: var(--tinta);
-    box-shadow: 0 1px 3px rgb(0 0 0 / 0.12);
-  }
-  .solapa .n, .chip .n { opacity: 0.65; font-weight: normal; margin-left: 5px; }
+  .solapa:hover { color: var(--tinta); }
+  .solapa[aria-pressed="true"] { background: var(--naranja); color: var(--negro); font-weight: 700; }
+  .n { opacity: 0.7; font-weight: normal; margin-left: 5px; }
 
-  /* Filtros: fila de "chips" que se puede deslizar con el dedo */
   .fila {
     display: flex; gap: 8px; overflow-x: auto; padding-bottom: 8px;
     scrollbar-width: none;
@@ -80,114 +101,303 @@
   .fila::-webkit-scrollbar { display: none; }
   .chip {
     flex: none;
-    border: 0; background: var(--papel); color: var(--tinta);
-    border-radius: 999px; padding: 7px 14px; font: inherit; font-size: 0.9rem;
+    border: 1px solid var(--linea); background: var(--blanco); color: var(--tinta);
+    border-radius: 999px; padding: 7px 14px; font: inherit; font-size: 0.88rem;
     cursor: pointer; white-space: nowrap;
-    box-shadow: 0 1px 2px rgb(0 0 0 / 0.2);
   }
-  .chip[aria-pressed="true"] { background: var(--tinta); color: var(--papel); font-weight: 700; }
+  .chip:hover { border-color: var(--tinta-suave); }
+  .chip[aria-pressed="true"] { background: var(--negro); border-color: var(--negro); color: var(--blanco); font-weight: 700; }
 
-  .resumen { color: var(--tinta-corcho); font-weight: 700; font-size: 0.9rem; margin: 10px 0 14px; }
+  .resumen { color: var(--tinta-suave); font-size: 0.9rem; margin: 10px 0 14px; }
 
-  /* Avisos: recortes en grilla (una columna en el celu, dos o tres en la compu) */
-  ul {
-    list-style: none; margin: 0; padding: 10px 0 0;
-    display: grid; gap: 26px 20px;
+  /* ---------- Avisos: recortes con cinta naranja ---------- */
+  ul.avisos {
+    list-style: none; margin: 0; padding: 12px 0 0;
+    display: grid; gap: 30px 22px;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
   }
   .aviso { position: relative; }
-  .aviso a {
-    display: flex; flex-direction: column; height: 100%;
-    text-decoration: none; color: inherit; background: var(--papel);
-    box-shadow: 0 4px 10px rgb(0 0 0 / 0.3);
-    outline: 1px dashed var(--punteado); outline-offset: -8px;  /* línea de "cortar acá" */
+  .recorte {
+    position: relative; display: flex; flex-direction: column; height: 100%;
+    background: var(--papel); color: var(--tinta);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.14);
+    outline: 1px dashed var(--linea); outline-offset: -8px;
     transition: transform 0.15s, box-shadow 0.15s;
   }
-  /* Cada recorte, un poquito torcido */
-  .aviso:nth-child(3n+1) a { transform: rotate(-1.2deg); }
-  .aviso:nth-child(3n+2) a { transform: rotate(0.9deg); }
-  .aviso:nth-child(3n) a { transform: rotate(-0.4deg); }
-  .aviso a:hover, .aviso a:focus-visible { transform: rotate(0) scale(1.02); box-shadow: 0 8px 18px rgb(0 0 0 / 0.35); }
-  /* Cinta adhesiva arriba */
-  .aviso::before {
-    content: ""; position: absolute; z-index: 1; top: -10px; left: 50%;
-    width: 90px; height: 22px; margin-left: -45px;
-    background: rgb(255 255 240 / 0.6); transform: rotate(-3deg);
-    box-shadow: 0 1px 2px rgb(0 0 0 / 0.15);
+  .aviso:nth-child(3n+1) .recorte { transform: rotate(-1deg); }
+  .aviso:nth-child(3n+2) .recorte { transform: rotate(0.8deg); }
+  .aviso:nth-child(3n) .recorte { transform: rotate(-0.4deg); }
+  .aviso:hover .recorte, .aviso:focus-within .recorte {
+    transform: rotate(0) translateY(-3px); box-shadow: 0 10px 22px rgb(0 0 0 / 0.18), 0 0 0 2px var(--naranja);
+  }
+  .aviso::before {  /* cinta adhesiva naranja */
+    content: ""; position: absolute; z-index: 2; top: -11px; left: 50%;
+    width: 96px; height: 24px; margin-left: -48px;
+    background: rgb(255 107 0 / 0.85); transform: rotate(-3deg);
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.3);
   }
 
+  .enlace { display: block; flex: 1; text-decoration: none; color: inherit; }
   .cabeza {
     display: flex; justify-content: space-between; align-items: center; gap: 8px;
-    padding: 18px 16px 0;
-    font-size: 0.7rem; font-weight: 700; color: var(--tinta-suave);
-    text-transform: uppercase; letter-spacing: 0.15em;
+    padding: 20px 16px 0;
+    font-family: "Oswald", Impact, sans-serif; text-transform: uppercase;
+    font-size: 0.78rem; letter-spacing: 0.12em; color: var(--naranja);
   }
-  .etiqueta.nuevo {
-    background: var(--nuevo); color: #fff; transform: rotate(-4deg);
-    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.05em;
-    padding: 3px 8px; border-radius: 4px;
+  .etiqueta {
+    font-family: "Oswald", Impact, sans-serif; font-weight: 700; letter-spacing: 0.06em;
+    font-size: 0.75rem; padding: 3px 9px; transform: rotate(-3deg);
   }
-  .cuerpo { padding: 8px 16px 14px; flex: 1; }
+  .etiqueta.nuevo { background: var(--naranja); color: var(--negro); }
+  .etiqueta.gris { background: var(--tinta-suave); color: var(--blanco); }
+  .cuerpo { padding: 8px 16px 12px; }
   .titulo {
-    margin: 0; font-family: "Playfair Display", Georgia, serif;
-    font-size: 1.25rem; line-height: 1.25; overflow-wrap: anywhere;
+    margin: 0; font-family: "Oswald", Impact, sans-serif; font-weight: 700;
+    text-transform: uppercase; font-size: 1.35rem; line-height: 1.12; overflow-wrap: anywhere;
   }
-  .empresa { margin: 4px 0 0; color: var(--tinta-suave); font-style: italic; }
+  .empresa { margin: 5px 0 0; color: var(--tinta-suave); font-style: italic; }
   .datos { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
-  .dato { font-size: 0.8rem; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--pastilla); }
+  .dato { font-size: 0.8rem; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--linea); background: #fff; }
+
+  .sello {  /* sello de goma "POSTULADO" */
+    position: absolute; right: 12px; top: 12px; z-index: 1; pointer-events: none;
+    border: 3px double var(--tinta); color: var(--tinta); border-radius: 6px;
+    padding: 2px 10px; transform: rotate(-8deg); background: rgb(251 248 242 / 0.8);
+    font-family: "Oswald", Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    font-size: 0.95rem; letter-spacing: 0.1em; text-align: center; line-height: 1.1;
+  }
+  .sello small { display: block; font-size: 0.7rem; letter-spacing: 0.04em; }
+
+  .acciones { display: flex; gap: 8px; padding: 0 16px 12px; }
+  .accion {
+    flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px;
+    border: 2px solid var(--tinta); background: transparent; color: var(--tinta);
+    border-radius: 999px; padding: 6px 10px; cursor: pointer;
+    font-family: "Oswald", Impact, sans-serif; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.04em;
+  }
+  .accion:hover { background: #f0ebe1; }
+  .accion.fav[aria-pressed="true"] { background: var(--naranja); border-color: var(--naranja); color: var(--negro); }
+  .accion.post[aria-pressed="true"] { background: var(--tinta); color: var(--blanco); }
 
   .pie {
     display: flex; justify-content: space-between; align-items: center;
-    padding: 10px 16px 14px; border-top: 1px dashed var(--punteado);
+    padding: 10px 16px 14px; border-top: 1px dashed var(--linea);
     font-size: 0.85rem; color: var(--tinta-suave);
   }
-  .ver { color: var(--tinta); font-weight: 700; }
+  .ver {
+    color: var(--tinta); text-decoration: none;
+    font-family: "Oswald", Impact, sans-serif; text-transform: uppercase; font-weight: 700; letter-spacing: 0.04em;
+  }
+  .ver:hover { color: var(--naranja); }
 
   .vacio {
     grid-column: 1 / -1; text-align: center; padding: 32px 16px;
-    background: var(--papel); box-shadow: 0 4px 10px rgb(0 0 0 / 0.3);
+    background: var(--papel); color: var(--tinta); box-shadow: 0 3px 10px rgb(0 0 0 / 0.14);
   }
-  footer { margin-top: 36px; color: var(--tinta-corcho); font-size: 0.85rem; text-align: center; }
+
+  /* ---------- Página de info ---------- */
+  .info { padding-top: 18px; display: grid; gap: 28px; }
+  .hoja {
+    background: var(--papel); color: var(--tinta); padding: 22px 18px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.14); position: relative;
+  }
+  .hoja::before {
+    content: ""; position: absolute; top: -11px; left: 28px; width: 96px; height: 24px;
+    background: rgb(255 107 0 / 0.85); transform: rotate(-3deg);
+  }
+  .hoja h2 {
+    margin: 0 0 6px; font-family: "Oswald", Impact, sans-serif; text-transform: uppercase;
+    font-size: 1.5rem; line-height: 1.1;
+  }
+  .hoja > p { margin: 0 0 14px; color: var(--tinta-suave); }
+  .fuentes { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .fuente {
+    display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; align-items: start;
+    padding: 10px 0; border-top: 1px dashed var(--linea);
+  }
+  .fuente .estado { font-size: 1.3rem; line-height: 1.2; grid-row: span 2; }
+  .fuente b { font-family: "Oswald", Impact, sans-serif; text-transform: uppercase; letter-spacing: 0.03em; font-weight: 700; }
+  .fuente .detalle { color: var(--tinta-suave); font-size: 0.9rem; }
+  .busquedas { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
+  .busqueda {
+    display: block; padding: 12px 14px; border: 2px solid var(--tinta); text-decoration: none; color: var(--tinta);
+  }
+  .busqueda:hover { background: var(--naranja); border-color: var(--naranja); }
+  .busqueda b { display: block; font-family: "Oswald", Impact, sans-serif; text-transform: uppercase; font-size: 1.05rem; }
+  .busqueda span { font-size: 0.85rem; color: var(--tinta-suave); }
+  .busqueda:hover span { color: var(--tinta); }
+  .consejos { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
+  .consejos li::marker { color: var(--naranja); font-weight: 700; }
+
+  footer { margin-top: 40px; color: var(--tinta-suave); font-size: 0.85rem; text-align: center; }
 </style>
 </head>
 <body>
 <div class="contenedor">
   <header>
-    <h1>🏉 Laburo Deportivo</h1>
+    <h1><span class="pelota">🏉</span>Laburo <span class="naranja">Deportivo</span></h1>
+    <p class="lema">Avisos de periodismo y contenido deportivo · se actualiza a las 8, 14 y 20 hs</p>
     <p class="actualizado" id="actualizado">Cargando avisos…</p>
+    <div class="barra">
+      <span id="cuenta"></span>
+      <button class="boton" id="ir-info">ℹ️ De dónde salen los avisos</button>
+      <button class="boton" id="ir-avisos" hidden>← Volver a los avisos</button>
+    </div>
     <div id="alertas"></div>
   </header>
 
-  <div class="filtros">
-    <div class="solapas" id="solapas"></div>
-    <div class="fila" id="filtro-nuevos"></div>
-    <div class="fila" id="filtro-modalidad"></div>
-    <div class="fila" id="filtro-fuente"></div>
-  </div>
+  <main id="vista-avisos">
+    <div class="filtros">
+      <div class="solapas" id="solapas"></div>
+      <div class="fila" id="filtro-nuevos"></div>
+      <div class="fila" id="filtro-modalidad"></div>
+      <div class="fila" id="filtro-fuente"></div>
+    </div>
+    <p class="resumen" id="resumen"></p>
+    <ul class="avisos" id="lista"></ul>
+  </main>
 
-  <p class="resumen" id="resumen"></p>
-  <ul id="lista"></ul>
+  <main id="vista-info" class="info" hidden>
+    <section class="hoja">
+      <h2>De dónde salen los avisos</h2>
+      <p>Un robot revisa estas páginas tres veces por día y se queda solo con los avisos que
+        hablan de <b>medios y de deporte</b>, que son <b>pagos</b> (nada de pasantías) y que son
+        <b>remotos o en CABA/GBA</b>.</p>
+      <ul class="fuentes" id="fuentes-ok"></ul>
+    </section>
 
-  <footer>Se actualiza solo a las 8, 14 y 20 hs. Tocá un aviso para ver el original.</footer>
+    <section class="hoja">
+      <h2>Donde el robot no puede buscar</h2>
+      <p>Estas páginas no dejan que un programa las lea, o no tienen bolsa de trabajo propia.
+        Hay que mirarlas a mano: abajo tenés las búsquedas ya armadas.</p>
+      <ul class="fuentes" id="fuentes-no"></ul>
+    </section>
+
+    <section class="hoja">
+      <h2>Búsquedas de LinkedIn ya armadas</h2>
+      <p>Cada botón abre LinkedIn con la búsqueda hecha: Argentina, últimos 7 días, lo más nuevo primero.</p>
+      <div class="busquedas" id="busquedas"></div>
+    </section>
+
+    <section class="hoja">
+      <h2>Consejos para buscar mejor</h2>
+      <ol class="consejos">
+        <li>En cada búsqueda de LinkedIn tocá <b>«Activar alerta»</b>: te llega un mail cuando aparece un aviso nuevo.</li>
+        <li>Si querés solo lo más fresco, en LinkedIn cambiá «Últimos 7 días» por <b>«Últimas 24 horas»</b>.</li>
+        <li>Cómo escribir búsquedas: las <b>"comillas"</b> buscan la frase exacta, <b>OR</b> suma opciones
+          (fútbol OR rugby) y <b>AND</b> obliga a que estén las dos palabras.</li>
+        <li><b>Seguí las páginas de empresa</b> de TyC Sports, ESPN, DSports, Fox Sports y Olé en LinkedIn:
+          te avisa cuando publican una búsqueda.</li>
+        <li>Muchos medios y clubes publican búsquedas en redes. Mirá
+          <a href="https://x.com/search?q=(buscamos%20OR%20busco%20OR%20b%C3%BAsqueda)%20(periodista%20OR%20redactor%20OR%20%22community%20manager%22)%20(deportes%20OR%20deportivo%20OR%20f%C3%BAtbol)&f=live" target="_blank" rel="noopener">esta búsqueda en X</a>.</li>
+        <li>Postulate rápido: la mayoría de las postulaciones llegan en los <b>primeros 2 o 3 días</b> del aviso.</li>
+        <li>Cuando te postules, marcalo acá con <b>«Me postulé»</b> así llevás la cuenta.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>Tocá un aviso para ver el original.</footer>
 </div>
 
-<script>
+<script type="module">
+  // ================= Datos fijos =================
   // Fecha de hoy en Argentina, en formato AAAA-MM-DD (igual que en jobs.json)
   const HOY = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Argentina/Buenos_Aires" })
     .format(new Date());
-
   const MODALIDADES = ["Remoto", "Híbrido", "Presencial", "Sin dato"];
 
-  // Lo que eligió la persona en los filtros
-  const elegido = { exterior: false, soloNuevos: false, modalidad: "Todas", fuente: "Todas" };
-  let avisos = [];
+  const SOLAPAS = [
+    { id: "arg", texto: "📍 Argentina y remoto", pasa: a => !a.exterior && !a.archivado && !marcas[a.id]?.postulado },
+    { id: "ext", texto: "🌎 Exterior", pasa: a => a.exterior && !a.archivado && !marcas[a.id]?.postulado },
+    { id: "fav", texto: "⭐ Favoritos", pasa: a => marcas[a.id]?.fav },
+    { id: "post", texto: "✅ Postulados", pasa: a => marcas[a.id]?.postulado },
+  ];
 
+  const FUENTES_INFO = {
+    "Computrabajo": "Bolsa de empleo general. Se buscan 19 palabras clave (periodista, redactor, deportes…).",
+    "Bumeran": "Bolsa de empleo general. Se lee la lista completa de avisos (solo trae el título).",
+    "ZonaJobs": "Bolsa de empleo general, de la misma empresa que Bumeran.",
+    "Workana": "Trabajos freelance por proyecto, todos remotos. Los de clientes de otros países van a «Exterior».",
+    "Clarín": "Bolsa de trabajo propia del Grupo Clarín (incluye Olé).",
+    "La Nación": "Bolsa de trabajo propia de La Nación (incluye LN+).",
+    "Warner (TNT Sports)": "Bolsa de trabajo de Warner Bros. Discovery en Argentina.",
+    "Disney (ESPN)": "Bolsa de trabajo de Disney y ESPN en Argentina.",
+  };
+
+  const FUENTES_NO = [
+    ["LinkedIn", "Es donde más se publica, pero bloquea a los robots. Usá las búsquedas armadas de abajo."],
+    ["TyC Sports", "No tiene bolsa propia: publica en LinkedIn."],
+    ["DSports (DirecTV)", "Publica solo en LinkedIn."],
+    ["Fox Sports Argentina", "No tiene bolsa propia: publica en LinkedIn."],
+    ["Clubes y AFA", "Publican en LinkedIn y en sus redes."],
+    ["Indeed y Jooble", "Bloquean a los robots."],
+    ["Infobae", "No encontramos una bolsa de trabajo propia."],
+  ];
+
+  const linkedin = (palabras, extra = "") =>
+    "https://www.linkedin.com/jobs/search/?keywords=" + encodeURIComponent(palabras) +
+    "&location=Argentina&f_TPR=r604800&sortBy=DD" + extra;
+  const BUSQUEDAS = [
+    ["Periodismo deportivo", "periodista AND (deportes OR deportivo OR fútbol)", ""],
+    ["Redacción y edición", "(redactor OR editor) AND (deportes OR deportivo OR fútbol)", ""],
+    ["Redes y contenido", '("community manager" OR "social media" OR "creador de contenido") AND (deportes OR deportivo OR club)', ""],
+    ["Radio, TV y streaming", "(locutor OR productor OR conductor OR relator) AND (deportes OR deportivo)", ""],
+    ["Solo remotos", "(periodista OR redactor OR contenido) AND (deportes OR deportivo)", "&f_WT=2"],
+    ["Medios deportivos", '"TyC Sports" OR ESPN OR DSports OR "Fox Sports" OR Olé', ""],
+  ];
+
+  // ================= Estado =================
+  const elegido = { solapa: "arg", soloNuevos: false, modalidad: "Todas", fuente: "Todas" };
+  let avisos = [];
+  let datosJson = null;
+
+  // ---------- Marcas (favorito / postulado) ----------
+  // marcas[id] = { fav, postulado: "AAAA-MM-DD" o null, aviso: {copia del aviso} }
+  // Se guarda una copia del aviso porque los viejos se borran del jobs.json,
+  // y uno al que se postuló tiene que seguir apareciendo en "Postulados".
+  // Sin cuenta, quedan solo en este navegador. Con cuenta de Google, se sincronizan.
+  const CLAVE_LOCAL = "laburo-deportivo-marcas";
+  let marcas = leerMarcasLocales();
+  let nube = null;  // conexión con Firebase cuando hay sesión iniciada
+
+  function leerMarcasLocales() {
+    try { return JSON.parse(localStorage.getItem(CLAVE_LOCAL)) || {}; }
+    catch { return {}; }
+  }
+  function guardarLocal() {
+    try { localStorage.setItem(CLAVE_LOCAL, JSON.stringify(marcas)); } catch {}
+  }
+
+  function marcar(aviso, campo, valor) {
+    const { nuevo, archivado, ...copia } = aviso;
+    const m = { fav: false, postulado: null, ...marcas[aviso.id] };
+    m[campo] = valor;
+    m.aviso = copia;
+    if (!m.fav && !m.postulado) delete marcas[aviso.id];
+    else marcas[aviso.id] = m;
+    guardarLocal();
+    nube?.subir();
+    dibujar();
+  }
+
+  // Todos los avisos: los del jobs.json + los marcados que ya no se publican más
+  function todos() {
+    const ids = new Set(avisos.map(a => a.id));
+    const viejos = Object.entries(marcas)
+      .filter(([id]) => !ids.has(id))
+      .map(([id, m]) => ({ ...m.aviso, id, nuevo: false, archivado: true }));
+    return [...avisos, ...viejos];
+  }
+
+  // ================= Carga de avisos =================
   fetch("jobs.json", { cache: "no-store" })
     .then(r => r.json())
     .then(datos => {
+      datosJson = datos;
       avisos = datos.avisos.map(a => ({ ...a, nuevo: a.primera_vez === HOY }));
       mostrarEncabezado(datos);
       dibujar();
+      dibujarInfo();
     })
     .catch(() => {
       document.getElementById("actualizado").textContent =
@@ -204,37 +414,50 @@
 
     const caidas = Object.entries(datos.fuentes).filter(([, e]) => !e.ok).map(([n]) => n);
     if (caidas.length) {
-      const div = document.createElement("p");
-      div.className = "alerta";
-      div.textContent = "⚠️ No se pudo leer: " + caidas.join(", ") +
+      const p = document.createElement("p");
+      p.className = "alerta";
+      p.textContent = "⚠️ No se pudo leer: " + caidas.join(", ") +
         ". Se muestran los últimos avisos que teníamos de ahí.";
-      document.getElementById("alertas").append(div);
+      document.getElementById("alertas").append(p);
     }
   }
 
+  // ================= Vistas: avisos / info =================
+  const vistaAvisos = document.getElementById("vista-avisos");
+  const vistaInfo = document.getElementById("vista-info");
+  document.getElementById("ir-info").onclick = () => cambiarVista(true);
+  document.getElementById("ir-avisos").onclick = () => cambiarVista(false);
+  function cambiarVista(info) {
+    vistaInfo.hidden = !info;
+    vistaAvisos.hidden = info;
+    document.getElementById("ir-info").hidden = info;
+    document.getElementById("ir-avisos").hidden = !info;
+    window.scrollTo(0, 0);
+  }
+
+  // ================= Dibujar los avisos =================
   function dibujar() {
+    const lista_completa = todos();
+    const solapa = SOLAPAS.find(s => s.id === elegido.solapa);
+
     // Cada filtro cuenta cuántos avisos hay teniendo en cuenta los OTROS filtros
     const pasa = (a, ignorar) =>
-      (ignorar === "solapa" || !!a.exterior === elegido.exterior) &&
+      solapa.pasa(a) &&
       (ignorar === "nuevos" || !elegido.soloNuevos || a.nuevo) &&
       (ignorar === "modalidad" || elegido.modalidad === "Todas" || a.modalidad === elegido.modalidad) &&
       (ignorar === "fuente" || elegido.fuente === "Todas" || a.fuente === elegido.fuente);
 
-    const contar = (ignorar, cond) => avisos.filter(a => pasa(a, ignorar) && cond(a)).length;
+    const enSolapa = lista_completa.filter(a => solapa.pasa(a));
+    const contar = (ignorar, cond) => lista_completa.filter(a => pasa(a, ignorar) && cond(a)).length;
 
     // Solapas: al cambiar de solapa se limpian los otros filtros
-    const solapas = document.getElementById("solapas");
-    solapas.replaceChildren(...[
-      { texto: "📍 Argentina y remoto", exterior: false },
-      { texto: "🌎 Freelance exterior", exterior: true },
-    ].map(s => {
+    document.getElementById("solapas").replaceChildren(...SOLAPAS.map(s => {
       const b = document.createElement("button");
       b.className = "solapa";
-      b.setAttribute("aria-pressed", elegido.exterior === s.exterior);
-      const n = avisos.filter(a => !!a.exterior === s.exterior).length;
-      b.innerHTML = `${s.texto}<span class="n">${n}</span>`;
+      b.setAttribute("aria-pressed", elegido.solapa === s.id);
+      b.innerHTML = `${s.texto}<span class="n">${lista_completa.filter(s.pasa).length}</span>`;
       b.onclick = () => {
-        Object.assign(elegido, { exterior: s.exterior, soloNuevos: false, modalidad: "Todas", fuente: "Todas" });
+        Object.assign(elegido, { solapa: s.id, soloNuevos: false, modalidad: "Todas", fuente: "Todas" });
         dibujar();
       };
       return b;
@@ -248,7 +471,7 @@
     ]);
 
     chips("filtro-modalidad", ["Todas", ...MODALIDADES]
-      .filter(m => m === "Todas" || avisos.some(a => a.modalidad === m))
+      .filter(m => m === "Todas" || enSolapa.some(a => a.modalidad === m))
       .map(m => ({
         texto: m === "Todas" ? "Toda modalidad" : m,
         n: contar("modalidad", a => m === "Todas" || a.modalidad === m),
@@ -256,7 +479,7 @@
         al: () => elegido.modalidad = m,
       })));
 
-    const fuentes = [...new Set(avisos.map(a => a.fuente))].sort();
+    const fuentes = [...new Set(enSolapa.map(a => a.fuente))].sort();
     chips("filtro-fuente", ["Todas", ...fuentes].map(f => ({
       texto: f === "Todas" ? "Todas las fuentes" : f,
       n: contar("fuente", a => f === "Todas" || a.fuente === f),
@@ -264,9 +487,11 @@
       al: () => elegido.fuente = f,
     })));
 
-    const visibles = avisos
-      .filter(a => pasa(a))
-      .sort((x, y) => (y.nuevo - x.nuevo) || y.fecha.localeCompare(x.fecha));
+    // En "Postulados" se ordena por fecha de postulación; en el resto, nuevos primero
+    const orden = elegido.solapa === "post"
+      ? (x, y) => marcas[y.id].postulado.localeCompare(marcas[x.id].postulado)
+      : (x, y) => (y.nuevo - x.nuevo) || y.fecha.localeCompare(x.fecha);
+    const visibles = lista_completa.filter(a => pasa(a)).sort(orden);
 
     const nuevos = visibles.filter(a => a.nuevo).length;
     document.getElementById("resumen").textContent =
@@ -278,16 +503,18 @@
     if (!visibles.length) {
       const li = document.createElement("li");
       li.className = "vacio";
-      li.textContent = elegido.soloNuevos
+      li.textContent = {
+        fav: "Todavía no guardaste ningún aviso. Tocá «Favorito» en los que te interesen.",
+        post: "Todavía no marcaste ninguna postulación. Cuando te postules, tocá «Me postulé».",
+      }[elegido.solapa] || (elegido.soloNuevos
         ? "Hoy todavía no apareció nada nuevo. Se vuelve a buscar a las 8, 14 y 20 hs."
-        : "No hay avisos con estos filtros.";
+        : "No hay avisos con estos filtros. Mirá «De dónde salen los avisos» para buscar en LinkedIn.");
       lista.append(li);
     }
   }
 
   function chips(id, opciones) {
-    const fila = document.getElementById(id);
-    fila.replaceChildren(...opciones.map(o => {
+    document.getElementById(id).replaceChildren(...opciones.map(o => {
       const b = document.createElement("button");
       b.className = "chip";
       b.setAttribute("aria-pressed", o.activo);
@@ -298,41 +525,166 @@
   }
 
   function tarjeta(a) {
+    const m = marcas[a.id] || {};
     const li = document.createElement("li");
     li.className = "aviso";
     const iconoModo = { "Remoto": "🏠", "Híbrido": "🔀", "Presencial": "🏢" }[a.modalidad] || "❔";
+    // Si hace días que el robot no lo ve en la fuente, puede que ya esté cerrado
+    const diasSinVer = a.ultima_vez ? diasEntre(a.ultima_vez, HOY) : 0;
+    const etiqueta = m.postulado ? ""
+      : a.archivado ? '<span class="etiqueta gris">YA NO SE PUBLICA</span>'
+      : diasSinVer >= 3 ? '<span class="etiqueta gris">PUEDE HABER CERRADO</span>'
+      : a.nuevo ? '<span class="etiqueta nuevo">NUEVO</span>' : "";
     li.innerHTML = `
-      <a href="${escapar(a.link)}" target="_blank" rel="noopener">
-        <div class="cabeza">
-          <span>${escapar(a.fuente)}</span>
-          ${a.nuevo ? '<span class="etiqueta nuevo">NUEVO</span>' : ""}
-        </div>
-        <div class="cuerpo">
-          <p class="titulo">${escapar(a.titulo)}</p>
-          ${a.empresa ? `<p class="empresa">${escapar(a.empresa)}</p>` : ""}
-          <div class="datos">
-            <span class="dato">${iconoModo} ${escapar(a.modalidad)}</span>
-            ${a.ubicacion ? `<span class="dato">📍 ${escapar(a.ubicacion)}</span>` : ""}
+      <article class="recorte">
+        <a class="enlace" href="${escapar(a.link)}" target="_blank" rel="noopener">
+          <div class="cabeza"><span>${escapar(a.fuente)}</span>${etiqueta}</div>
+          <div class="cuerpo">
+            <p class="titulo">${escapar(a.titulo)}</p>
+            ${a.empresa ? `<p class="empresa">${escapar(a.empresa)}</p>` : ""}
+            <div class="datos">
+              <span class="dato">${iconoModo} ${escapar(a.modalidad)}</span>
+              ${a.ubicacion ? `<span class="dato">📍 ${escapar(a.ubicacion)}</span>` : ""}
+            </div>
           </div>
+        </a>
+        ${m.postulado ? `<div class="sello">Postulado<small>${fechaCorta(m.postulado)}</small></div>` : ""}
+        <div class="acciones">
+          <button class="accion fav" aria-pressed="${!!m.fav}">${m.fav ? "★ Favorito" : "☆ Favorito"}</button>
+          <button class="accion post" aria-pressed="${!!m.postulado}">${m.postulado ? "✓ Postulado" : "Me postulé"}</button>
         </div>
         <div class="pie">
           <span>📅 ${fechaLinda(a.fecha)}</span>
-          <span class="ver">Ver aviso →</span>
+          <a class="ver" href="${escapar(a.link)}" target="_blank" rel="noopener">Ver aviso →</a>
         </div>
-      </a>`;
+      </article>`;
+    li.querySelector(".fav").onclick = () => marcar(a, "fav", !m.fav);
+    li.querySelector(".post").onclick = () => marcar(a, "postulado", m.postulado ? null : HOY);
     return li;
   }
 
-  function fechaLinda(iso) {
-    if (iso === HOY) return "hoy";
-    const dias = Math.round((new Date(HOY) - new Date(iso)) / 86400000);
-    if (dias === 1) return "ayer";
-    if (dias < 7) return `hace ${dias} días`;
-    return new Date(iso + "T12:00").toLocaleDateString("es-AR", { day: "numeric", month: "short" });
+  // ================= Dibujar la página de info =================
+  function dibujarInfo() {
+    const porFuente = {};
+    for (const a of avisos) porFuente[a.fuente] = (porFuente[a.fuente] || 0) + 1;
+
+    document.getElementById("fuentes-ok").replaceChildren(...Object.entries(datosJson.fuentes).map(([nombre, e]) => {
+      const li = document.createElement("li");
+      li.className = "fuente";
+      const estado = e.ok
+        ? `Anda bien · leyó ${e.leidos.toLocaleString("es-AR")} avisos · ${porFuente[nombre] || 0} pasaron el filtro`
+        : `No se pudo leer en la última pasada. Se reintenta solo en la próxima.`;
+      li.innerHTML = `
+        <span class="estado">${e.ok ? "✅" : "⚠️"}</span>
+        <b>${escapar(nombre)}</b>
+        <span class="detalle">${escapar(FUENTES_INFO[nombre] || "")} ${estado}</span>`;
+      return li;
+    }));
+
+    document.getElementById("fuentes-no").replaceChildren(...FUENTES_NO.map(([nombre, porque]) => {
+      const li = document.createElement("li");
+      li.className = "fuente";
+      li.innerHTML = `<span class="estado">🚫</span><b>${escapar(nombre)}</b><span class="detalle">${escapar(porque)}</span>`;
+      return li;
+    }));
+
+    document.getElementById("busquedas").replaceChildren(...BUSQUEDAS.map(([titulo, palabras, extra]) => {
+      const a = document.createElement("a");
+      a.className = "busqueda";
+      a.href = linkedin(palabras, extra);
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.innerHTML = `<b>${escapar(titulo)} →</b><span>${escapar(palabras)}</span>`;
+      return a;
+    }));
   }
 
+  // ================= Cuenta de Google (Firebase) =================
+  // La configuración de Firebase es pública a propósito: lo que protege los datos
+  // son las reglas de la base, que solo dejan a cada persona leer y escribir lo suyo.
+  const FIREBASE = {
+    apiKey: "AIzaSyCNEN2TzRupH3atyRJKZ3CgTyUurZUwXtM",
+    authDomain: "laburo-deportivo.firebaseapp.com",
+    projectId: "laburo-deportivo",
+    storageBucket: "laburo-deportivo.firebasestorage.app",
+    messagingSenderId: "716758625432",
+    appId: "1:716758625432:web:401db15430ade7dcb8b4ed",
+  };
+  const SDK = "https://www.gstatic.com/firebasejs/11.10.0/";
+
+  conectarCuenta();
+
+  async function conectarCuenta() {
+    const cuenta = document.getElementById("cuenta");
+    let fb;
+    try {
+      const [app, auth, db] = await Promise.all([
+        import(SDK + "firebase-app.js"),
+        import(SDK + "firebase-auth.js"),
+        import(SDK + "firebase-firestore.js"),
+      ]);
+      fb = { ...app, ...auth, ...db };
+    } catch {
+      return;  // sin Firebase la página igual anda, con las marcas solo en este navegador
+    }
+    const app = fb.initializeApp(FIREBASE);
+    const auth = fb.getAuth(app);
+    const db = fb.getFirestore(app);
+    let dejarDeEscuchar = null;
+
+    fb.onAuthStateChanged(auth, usuario => {
+      dejarDeEscuchar?.();
+      nube = null;
+      if (!usuario) {
+        cuenta.innerHTML = `
+          <button class="boton lleno" id="entrar">Entrar con Google</button>
+          <span class="cuenta-texto">para ver tus favoritos en el celu y la compu</span>`;
+        document.getElementById("entrar").onclick = () =>
+          fb.signInWithPopup(auth, new fb.GoogleAuthProvider()).catch(() => {});
+        return;
+      }
+
+      const nombre = (usuario.displayName || usuario.email || "").split(" ")[0];
+      cuenta.innerHTML = `<span class="cuenta-texto">✓ Sincronizado · <b>${escapar(nombre)}</b> ·
+        <button class="link-suave" id="salir">Salir</button></span>`;
+      document.getElementById("salir").onclick = () => fb.signOut(auth);
+
+      const ref = fb.doc(db, "usuarios", usuario.uid);
+      nube = { subir: () => fb.setDoc(ref, { marcas }).catch(() => {}) };
+      let primeraVez = true;
+      dejarDeEscuchar = fb.onSnapshot(ref, snap => {
+        const remotas = snap.data()?.marcas || {};
+        if (primeraVez) {
+          // Al entrar: se juntan las marcas que había en este navegador con las de la cuenta
+          primeraVez = false;
+          const faltaban = Object.keys(marcas).some(id => !(id in remotas));
+          marcas = { ...marcas, ...remotas };
+          if (faltaban) nube.subir();
+        } else {
+          marcas = remotas;
+        }
+        guardarLocal();
+        dibujar();
+      });
+    });
+  }
+
+  // ================= Utilidades =================
+  function diasEntre(desde, hasta) {
+    return Math.round((new Date(hasta) - new Date(desde)) / 86400000);
+  }
+  function fechaLinda(iso) {
+    if (iso === HOY) return "hoy";
+    const dias = diasEntre(iso, HOY);
+    if (dias === 1) return "ayer";
+    if (dias < 7) return `hace ${dias} días`;
+    return fechaCorta(iso);
+  }
+  function fechaCorta(iso) {
+    return new Date(iso + "T12:00").toLocaleDateString("es-AR", { day: "numeric", month: "short" });
+  }
   function escapar(txt) {
-    return String(txt).replace(/[&<>"']/g, c =>
+    return String(txt ?? "").replace(/[&<>"']/g, c =>
       ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   }
 </script>
