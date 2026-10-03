@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-03T12:02-03:00",
+  "actualizado": "2026-10-03T16:39-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 332
+      "leidos": 333
     },
     "Bumeran": {
       "ok": true,
@@ -117,7 +117,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-09-26",
+      "fecha": "2026-09-19",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/creacion-de-contenido-para-marketing-deportivo-y-clubes-de-futbol",
       "exterior": true,
@@ -182,13 +182,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-09-04",
+      "fecha": "2026-09-05",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-video-creativo-para-marca-personal-y-contenido-deportivo-educativo-reels-y-youtube",
       "exterior": true,
       "id": "3f9bd4870fc8",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-02"
+      "ultima_vez": "2026-10-03"
     },
     {
       "titulo": "Buscamos Editores de Contenido para Marca de Moda y Deporte",
