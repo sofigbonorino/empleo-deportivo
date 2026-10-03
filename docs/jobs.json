@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-02T18:08-03:00",
+  "actualizado": "2026-10-02T22:42-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 332
+      "leidos": 334
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6832
+      "leidos": 6777
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2840
+      "leidos": 2828
     },
     "Workana": {
       "ok": true,
@@ -117,7 +117,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-09-18",
+      "fecha": "2026-09-11",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-cortos-de-futbol-para-tiktok-instagram-y-youtube",
       "exterior": true,
@@ -252,6 +252,19 @@
       "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-tienda-de-nutricion-deportiva",
       "exterior": true,
       "id": "6388579eef04",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-02"
+    },
+    {
+      "titulo": "Desarrollo de Contenido Audiovisual para Enseñanza de Ejercicios de Fútbol",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Argentina",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-02",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/desarrollo-de-contenido-audiovisual-para-ensenanza-de-ejercicios-de-futbol",
+      "exterior": false,
+      "id": "3301940d0199",
       "primera_vez": "2026-10-02",
       "ultima_vez": "2026-10-02"
     }
