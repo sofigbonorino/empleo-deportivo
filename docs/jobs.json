@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-03T16:39-03:00",
+  "actualizado": "2026-10-03T23:21-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 333
+      "leidos": 331
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6777
+      "leidos": 6655
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2828
+      "leidos": 2767
     },
     "Workana": {
       "ok": true,
@@ -104,7 +104,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Ecuador",
       "modalidad": "Remoto",
-      "fecha": "2026-09-30",
+      "fecha": "2026-09-29",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-imagenes-y-creador-de-contenido-deportivo-para-redes-sociales",
       "exterior": true,
