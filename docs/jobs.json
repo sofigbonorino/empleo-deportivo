@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-04T12:38-03:00",
+  "actualizado": "2026-10-04T16:53-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 326
+      "leidos": 325
     },
     "Bumeran": {
       "ok": true,
@@ -156,13 +156,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-09-12",
+      "fecha": "2026-09-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/edicion-profesional-de-video-de-highlights-de-futbol-americano",
       "exterior": true,
       "id": "d2db32120cc9",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-03"
+      "ultima_vez": "2026-10-04"
     },
     {
       "titulo": "Creación de Edits Dinámicos para Tiktok de Contenido Deportivo y Gaming",
