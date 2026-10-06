@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-05T23:39-03:00",
+  "actualizado": "2026-10-06T14:01-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 331
+      "leidos": 337
     },
     "Bumeran": {
       "ok": true,
@@ -36,43 +36,95 @@
   },
   "avisos": [
     {
+      "titulo": "Editor y Creador de Videos Deportivos de Tenis para Redes Sociales",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Venezuela",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-06",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/editor-y-creador-de-videos-deportivos-de-tenis-para-redes-sociales",
+      "exterior": true,
+      "id": "b2c490df94ca",
+      "primera_vez": "2026-10-06",
+      "ultima_vez": "2026-10-06"
+    },
+    {
+      "titulo": "Especialista en Marketing y Contenido Estratégico para Proyecto Digital Deportivo",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Argentina",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-08",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/especialista-en-marketing-y-contenido-estrategico-para-proyecto-digital-deportivo",
+      "exterior": false,
+      "id": "cb9ef14c51cb",
+      "primera_vez": "2026-10-06",
+      "ultima_vez": "2026-10-06"
+    },
+    {
+      "titulo": "Content Creator y Video Editor Freelance para Marca de Suplementos Deportivos",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Colombia",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-06",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/content-creator-y-video-editor-freelance-para-marca-de-suplementos-deportivos",
+      "exterior": true,
+      "id": "61f371c1d97c",
+      "primera_vez": "2026-10-06",
+      "ultima_vez": "2026-10-06"
+    },
+    {
+      "titulo": "Edición Profesional de Video para Vsl de 28 Minutos sobre Becas Deportivas en Usa",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Colombia",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-06",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/edicion-profesional-de-video-para-vsl-de-28-minutos-sobre-becas-deportivas-en-usa",
+      "exterior": true,
+      "id": "03fce07d85da",
+      "primera_vez": "2026-10-06",
+      "ultima_vez": "2026-10-06"
+    },
+    {
       "titulo": "Producción de Programa de Streaming sobre Fútbol y Relatos Personales",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-04",
+      "fecha": "2026-10-05",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/produccion-de-programa-de-streaming-sobre-futbol-y-relatos-personales",
       "exterior": false,
       "id": "d1e0dca6d551",
       "primera_vez": "2026-10-05",
-      "ultima_vez": "2026-10-05"
+      "ultima_vez": "2026-10-06"
     },
     {
       "titulo": "Editor de Videos Profesional para Marca de Ropa Deportiva Femenina en Argentina",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-09-07",
+      "fecha": "2026-09-08",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-profesional-para-marca-de-ropa-deportiva-femenina-en-argentina",
       "exterior": false,
       "id": "cc2eaf41935a",
       "primera_vez": "2026-10-05",
-      "ultima_vez": "2026-10-05"
+      "ultima_vez": "2026-10-06"
     },
     {
       "titulo": "Búsqueda de Redactores Deportivos para Medio de Comunicación Digital",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-09-07",
+      "fecha": "2026-09-08",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/busqueda-de-redactores-deportivos-para-medio-de-comunicacion-digital",
       "exterior": true,
       "id": "df711299e1d8",
       "primera_vez": "2026-10-03",
-      "ultima_vez": "2026-10-05"
+      "ultima_vez": "2026-10-06"
     },
     {
       "titulo": "Gestión de Redes Sociales (Instagram y Facebook) + Creación de Imágenes para Fitsport Solutions",
@@ -110,7 +162,7 @@
       "link": "https://www.bumeran.com.ar/empleos/estudiante-de-deporte-|-especialista-audiovisual-|-administrativo-cooperativa-de-trabajo-tic-global-limitada-1118393210.html",
       "id": "61eee0107781",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-05"
+      "ultima_vez": "2026-10-06"
     },
     {
       "titulo": "Edición Profesional de Videos de Fútbol para Instagram",
@@ -123,33 +175,33 @@
       "exterior": true,
       "id": "734d5918c315",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-05"
+      "ultima_vez": "2026-10-06"
     },
     {
       "titulo": "Editor de Imágenes y Creador de Contenido Deportivo para Redes Sociales",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Ecuador",
       "modalidad": "Remoto",
-      "fecha": "2026-09-29",
+      "fecha": "2026-09-30",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-imagenes-y-creador-de-contenido-deportivo-para-redes-sociales",
       "exterior": true,
       "id": "a32a9e03d2bf",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-05"
+      "ultima_vez": "2026-10-06"
     },
     {
       "titulo": "Creación de Contenido para Marketing Deportivo y Clubes de Fútbol",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-09-21",
+      "fecha": "2026-09-22",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/creacion-de-contenido-para-marketing-deportivo-y-clubes-de-futbol",
       "exterior": true,
       "id": "4f6ab376401b",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-05"
+      "ultima_vez": "2026-10-06"
     },
     {
       "titulo": "Editor de Videos Cortos de Fútbol para Tiktok, Instagram y Youtube",
@@ -204,6 +256,58 @@
       "ultima_vez": "2026-10-05"
     },
     {
+      "titulo": "Buscamos Editores de Contenido para Marca de Moda y Deporte",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de México",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-06",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/buscamos-editores-de-contenido-para-marca-de-moda-y-deporte",
+      "exterior": true,
+      "id": "7dda8af5df76",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-06"
+    },
+    {
+      "titulo": "Editor/a de Vídeo para Canal de Youtube de Boxeo y Mma (Contenido Semanal Recurrente)",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de España",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-06",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/editor-a-de-video-para-canal-de-youtube-de-boxeo-y-mma-contenido-semanal-recurrente",
+      "exterior": true,
+      "id": "4c104eed6926",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-06"
+    },
+    {
+      "titulo": "Creación de Contenido de Video Dinámico sobre Deportes y Fútbol",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de España",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-06",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/creacion-de-contenido-de-video-dinamico-sobre-deportes-y-futbol",
+      "exterior": true,
+      "id": "638e5e7d4956",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-06"
+    },
+    {
+      "titulo": "Desarrollo de Contenido Audiovisual para Enseñanza de Ejercicios de Fútbol",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Argentina",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-06",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/desarrollo-de-contenido-audiovisual-para-ensenanza-de-ejercicios-de-futbol",
+      "exterior": false,
+      "id": "3301940d0199",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-06"
+    },
+    {
       "titulo": "Editor de Video Creativo para Marca Personal y Contenido Deportivo/Educativo (Reels y Youtube)",
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
@@ -215,58 +319,6 @@
       "id": "3f9bd4870fc8",
       "primera_vez": "2026-10-02",
       "ultima_vez": "2026-10-03"
-    },
-    {
-      "titulo": "Buscamos Editores de Contenido para Marca de Moda y Deporte",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de México",
-      "modalidad": "Remoto",
-      "fecha": "2026-09-05",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/buscamos-editores-de-contenido-para-marca-de-moda-y-deporte",
-      "exterior": true,
-      "id": "7dda8af5df76",
-      "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-05"
-    },
-    {
-      "titulo": "Editor/a de Vídeo para Canal de Youtube de Boxeo y Mma (Contenido Semanal Recurrente)",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de España",
-      "modalidad": "Remoto",
-      "fecha": "2026-09-05",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/editor-a-de-video-para-canal-de-youtube-de-boxeo-y-mma-contenido-semanal-recurrente",
-      "exterior": true,
-      "id": "4c104eed6926",
-      "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-05"
-    },
-    {
-      "titulo": "Creación de Contenido de Video Dinámico sobre Deportes y Fútbol",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de España",
-      "modalidad": "Remoto",
-      "fecha": "2026-09-05",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/creacion-de-contenido-de-video-dinamico-sobre-deportes-y-futbol",
-      "exterior": true,
-      "id": "638e5e7d4956",
-      "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-05"
-    },
-    {
-      "titulo": "Desarrollo de Contenido Audiovisual para Enseñanza de Ejercicios de Fútbol",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de Argentina",
-      "modalidad": "Remoto",
-      "fecha": "2026-09-05",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/desarrollo-de-contenido-audiovisual-para-ensenanza-de-ejercicios-de-futbol",
-      "exterior": false,
-      "id": "3301940d0199",
-      "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-05"
     },
     {
       "titulo": "Diseñador Gráfico para Redes Sociales de Club de Fútbol (Contenido Deportivo)",
