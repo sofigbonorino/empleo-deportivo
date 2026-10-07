@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-06T14:01-03:00",
+  "actualizado": "2026-10-06T23:02-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 337
+      "leidos": 334
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6542
+      "leidos": 6631
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2714
+      "leidos": 2767
     },
     "Workana": {
       "ok": true,
@@ -31,7 +31,7 @@
     },
     "Disney (ESPN)": {
       "ok": true,
-      "leidos": 4
+      "leidos": 3
     }
   },
   "avisos": [
@@ -92,7 +92,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-05",
+      "fecha": "2026-10-04",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/produccion-de-programa-de-streaming-sobre-futbol-y-relatos-personales",
       "exterior": false,
@@ -182,7 +182,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Ecuador",
       "modalidad": "Remoto",
-      "fecha": "2026-09-30",
+      "fecha": "2026-09-29",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-imagenes-y-creador-de-contenido-deportivo-para-redes-sociales",
       "exterior": true,
