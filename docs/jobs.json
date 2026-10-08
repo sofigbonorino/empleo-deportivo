@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-07T14:39-03:00",
+  "actualizado": "2026-10-07T23:27-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 333
+      "leidos": 335
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6631
+      "leidos": 6747
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2767
+      "leidos": 2817
     },
     "Workana": {
       "ok": true,
@@ -49,6 +49,19 @@
       "ultima_vez": "2026-10-07"
     },
     {
+      "titulo": "Community Manager y Creador de Contenido para Redes Sociales de Negocio Deportivo",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Estados Unidos",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-07",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-negocio-deportivo",
+      "exterior": true,
+      "id": "5e820f11dca7",
+      "primera_vez": "2026-10-07",
+      "ultima_vez": "2026-10-07"
+    },
+    {
       "titulo": "Desarrollo de Estrategia de Contenido Digital para Marca Personal en Psicología Deportiva",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
@@ -71,6 +84,19 @@
       "link": "https://www.workana.com/job/social-media-manager-freelance-para-lanzamiento-de-marca-de-suplementos-deportivos",
       "exterior": true,
       "id": "b17882f4a341",
+      "primera_vez": "2026-10-07",
+      "ultima_vez": "2026-10-07"
+    },
+    {
+      "titulo": "Editor de Video Bilingüe Hero | Boxeo Educativo y Masterclass",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Estados Unidos",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-07",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/community-manager-senior-bilingue-es-en-boxeo-y-deportes-de-combate",
+      "exterior": true,
+      "id": "126e30078254",
       "primera_vez": "2026-10-07",
       "ultima_vez": "2026-10-07"
     },
@@ -131,7 +157,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-05",
+      "fecha": "2026-10-04",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/produccion-de-programa-de-streaming-sobre-futbol-y-relatos-personales",
       "exterior": false,
@@ -157,13 +183,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-09-08",
+      "fecha": "2026-09-07",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/busqueda-de-redactores-deportivos-para-medio-de-comunicacion-digital",
       "exterior": true,
       "id": "df711299e1d8",
       "primera_vez": "2026-10-03",
-      "ultima_vez": "2026-10-06"
+      "ultima_vez": "2026-10-07"
     },
     {
       "titulo": "Gestión de Redes Sociales (Instagram y Facebook) + Creación de Imágenes para Fitsport Solutions",
@@ -221,7 +247,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Ecuador",
       "modalidad": "Remoto",
-      "fecha": "2026-09-30",
+      "fecha": "2026-09-23",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-imagenes-y-creador-de-contenido-deportivo-para-redes-sociales",
       "exterior": true,
@@ -234,13 +260,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-09-22",
+      "fecha": "2026-09-23",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/creacion-de-contenido-para-marketing-deportivo-y-clubes-de-futbol",
       "exterior": true,
       "id": "4f6ab376401b",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-06"
+      "ultima_vez": "2026-10-07"
     },
     {
       "titulo": "Editor de Videos Cortos de Fútbol para Tiktok, Instagram y Youtube",
