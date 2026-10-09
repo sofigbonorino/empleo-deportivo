@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-08T14:41-03:00",
+  "actualizado": "2026-10-08T23:44-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 334
+      "leidos": 338
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6747
+      "leidos": 6779
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2817
+      "leidos": 2826
     },
     "Workana": {
       "ok": true,
@@ -27,7 +27,7 @@
     },
     "Warner (TNT Sports)": {
       "ok": true,
-      "leidos": 1
+      "leidos": 9
     },
     "Disney (ESPN)": {
       "ok": true,
@@ -157,7 +157,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-05",
+      "fecha": "2026-10-04",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/produccion-de-programa-de-streaming-sobre-futbol-y-relatos-personales",
       "exterior": false,
