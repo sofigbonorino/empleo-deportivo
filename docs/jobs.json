@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-09T14:17-03:00",
+  "actualizado": "2026-10-09T23:02-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 339
+      "leidos": 336
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6779
+      "leidos": 6738
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2826
+      "leidos": 2800
     },
     "Workana": {
       "ok": true,
@@ -27,7 +27,7 @@
     },
     "Warner (TNT Sports)": {
       "ok": true,
-      "leidos": 9
+      "leidos": 10
     },
     "Disney (ESPN)": {
       "ok": true,
@@ -105,7 +105,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-negocio-deportivo",
       "exterior": true,
@@ -222,7 +222,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-05",
+      "fecha": "2026-10-04",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/produccion-de-programa-de-streaming-sobre-futbol-y-relatos-personales",
       "exterior": false,
@@ -235,13 +235,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-09-08",
+      "fecha": "2026-09-09",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-profesional-para-marca-de-ropa-deportiva-femenina-en-argentina",
       "exterior": false,
       "id": "cc2eaf41935a",
       "primera_vez": "2026-10-05",
-      "ultima_vez": "2026-10-08"
+      "ultima_vez": "2026-10-09"
     },
     {
       "titulo": "Búsqueda de Redactores Deportivos para Medio de Comunicación Digital",
