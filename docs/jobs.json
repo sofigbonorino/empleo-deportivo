@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-11T13:31-03:00",
+  "actualizado": "2026-10-11T17:46-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 331
+      "leidos": 330
     },
     "Bumeran": {
       "ok": true,
@@ -15,7 +15,7 @@
     },
     "Workana": {
       "ok": true,
-      "leidos": 127
+      "leidos": 128
     },
     "Clarín": {
       "ok": true,
@@ -468,13 +468,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Países Bajos",
       "modalidad": "Remoto",
-      "fecha": "2026-09-10",
+      "fecha": "2026-09-11",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/disenador-grafico-para-redes-sociales-de-club-de-futbol-contenido-deportivo",
       "exterior": true,
       "id": "42839040b3a5",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-10"
+      "ultima_vez": "2026-10-11"
     },
     {
       "titulo": "Buscamos Editores de Contenido para Marca de Moda y Deporte",
