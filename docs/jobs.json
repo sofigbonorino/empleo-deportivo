@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-10T17:27-03:00",
+  "actualizado": "2026-10-10T22:31-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
@@ -7,11 +7,11 @@
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6738
+      "leidos": 6639
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2800
+      "leidos": 2757
     },
     "Workana": {
       "ok": true,
@@ -144,7 +144,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-negocio-deportivo",
       "exterior": true,
