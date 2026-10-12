@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-11T17:46-03:00",
+  "actualizado": "2026-10-11T23:01-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 330
+      "leidos": 329
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6639
+      "leidos": 6526
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2757
+      "leidos": 2712
     },
     "Workana": {
       "ok": true,
@@ -144,7 +144,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-negocio-deportivo",
       "exterior": true,
@@ -261,7 +261,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-05",
+      "fecha": "2026-10-04",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/produccion-de-programa-de-streaming-sobre-futbol-y-relatos-personales",
       "exterior": false,
