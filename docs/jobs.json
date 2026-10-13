@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-12T17:05-03:00",
+  "actualizado": "2026-10-13T00:20-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
@@ -7,15 +7,15 @@
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6526
+      "leidos": 6439
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2712
+      "leidos": 2659
     },
     "Workana": {
       "ok": true,
-      "leidos": 128
+      "leidos": 130
     },
     "Clarín": {
       "ok": true,
@@ -36,108 +36,121 @@
   },
   "avisos": [
     {
+      "titulo": "Community Manager Empresa Deportiva Postear 3  Veces por Semana",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de México",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-13",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/community-manager-empresa-deportiva-postear-3-veces-por-semana",
+      "exterior": true,
+      "id": "c5084a8c75b9",
+      "primera_vez": "2026-10-13",
+      "ultima_vez": "2026-10-13"
+    },
+    {
       "titulo": "Editor de Videos 360 para Contenido de Viajes en Moto y Deportes",
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-10-10",
+      "fecha": "2026-10-11",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-360-para-contenido-de-viajes-en-moto-y-deportes",
       "exterior": true,
       "id": "da5a1be63a98",
       "primera_vez": "2026-10-10",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Creador de Contenido Local en Medellín para Tour Pov: Cultura Urbana, Fútbol y Gastronomía",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Perú",
       "modalidad": "Remoto",
-      "fecha": "2026-10-10",
+      "fecha": "2026-10-11",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/creador-de-contenido-local-en-medellin-para-tour-pov-cultura-urbana-futbol-y-gastronomia",
       "exterior": true,
       "id": "ec549f5b8fb9",
       "primera_vez": "2026-10-10",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Especialista en Contenido Digital y Gestión de Redes Sociales para Marca de Ropa Deportiva",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Costa Rica",
       "modalidad": "Remoto",
-      "fecha": "2026-09-11",
+      "fecha": "2026-09-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/especialista-en-contenido-digital-y-gestion-de-redes-sociales-para-marca-de-ropa-deportiva",
       "exterior": true,
       "id": "0aaa4eade1a5",
       "primera_vez": "2026-10-10",
-      "ultima_vez": "2026-10-11"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Creador/a de Contenido Ugc y Reels para Marca de Suplementos Deportivos",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-09",
+      "fecha": "2026-10-10",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/creador-a-de-contenido-ugc-y-reels-para-marca-de-suplementos-deportivos",
       "exterior": false,
       "id": "0efe92ae5152",
       "primera_vez": "2026-10-09",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Community Manager y Campaña de Marketing en Instagram para Suplementos Deportivos",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-09",
+      "fecha": "2026-10-10",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-y-campana-de-marketing-en-instagram-para-suplementos-deportivos",
       "exterior": false,
       "id": "ec97794b5916",
       "primera_vez": "2026-10-09",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Editor de Youtube para Videos de Noticias Deportivas en Formato Horizontal",
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-09-21",
+      "fecha": "2026-09-22",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-youtube-para-videos-de-noticias-deportivas-en-formato-horizontal",
       "exterior": true,
       "id": "3c3c900a5dc9",
       "primera_vez": "2026-10-09",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Editor de Video para Contenido de Redes Sociales de Escuela Deportiva (Reels/Tiktok)",
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-09-12",
+      "fecha": "2026-09-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-video-para-contenido-de-redes-sociales-de-escuela-deportiva-reels-tiktok",
       "exterior": true,
       "id": "f7dffbc2a020",
       "primera_vez": "2026-10-09",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Editor de Video para Reel Comercial de Deportes y Gaming - Entrega Urgente",
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-09-12",
+      "fecha": "2026-09-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-video-para-reel-comercial-de-deportes-y-gaming-entrega-urgente",
       "exterior": true,
       "id": "341bbe68e2bc",
       "primera_vez": "2026-10-09",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Community Manager y Creador de Contenido para Redes Sociales de Negocio Deportivo",
@@ -150,7 +163,7 @@
       "exterior": true,
       "id": "5e820f11dca7",
       "primera_vez": "2026-10-07",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Editor de Video para Postproducción Deportiva con Personalización de Contenido",
@@ -170,13 +183,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-09-12",
+      "fecha": "2026-09-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-senior-bilingue-es-en-boxeo-y-deportes-de-combate",
       "exterior": true,
       "id": "126e30078254",
       "primera_vez": "2026-10-07",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Desarrollo de Estrategia de Contenido Digital para Marca Personal en Psicología Deportiva",
@@ -209,13 +222,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Venezuela",
       "modalidad": "Remoto",
-      "fecha": "2026-10-06",
+      "fecha": "2026-10-07",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-y-creador-de-videos-deportivos-de-tenis-para-redes-sociales",
       "exterior": true,
       "id": "b2c490df94ca",
       "primera_vez": "2026-10-06",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Especialista en Marketing y Contenido Estratégico para Proyecto Digital Deportivo",
@@ -261,65 +274,65 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-05",
+      "fecha": "2026-09-29",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/produccion-de-programa-de-streaming-sobre-futbol-y-relatos-personales",
       "exterior": false,
       "id": "d1e0dca6d551",
       "primera_vez": "2026-10-05",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Editor de Videos Profesional para Marca de Ropa Deportiva Femenina en Argentina",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-09-12",
+      "fecha": "2026-09-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-profesional-para-marca-de-ropa-deportiva-femenina-en-argentina",
       "exterior": false,
       "id": "cc2eaf41935a",
       "primera_vez": "2026-10-05",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Búsqueda de Redactores Deportivos para Medio de Comunicación Digital",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-09-12",
+      "fecha": "2026-09-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/busqueda-de-redactores-deportivos-para-medio-de-comunicacion-digital",
       "exterior": true,
       "id": "df711299e1d8",
       "primera_vez": "2026-10-03",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Busco Community Manager para Empresa Deportiva!",
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-10-12",
+      "fecha": "2026-10-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/busco-community-manager-para-empresa-deportiva",
       "exterior": true,
       "id": "34f3371be3fa",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Gestión de Redes Sociales (Instagram y Facebook) + Creación de Imágenes para Fitsport Solutions",
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-10-05",
+      "fecha": "2026-10-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/gestion-de-redes-sociales-instagram-y-facebook-creacion-de-imagenes-para-fitsport-solutions",
       "exterior": true,
       "id": "52ad455e6560",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-05"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Estudiante de deporte | especialista audiovisual | administrativo cooperativa de trabajo tic global limitada",
@@ -331,7 +344,7 @@
       "link": "https://www.bumeran.com.ar/empleos/estudiante-de-deporte-|-especialista-audiovisual-|-administrativo-cooperativa-de-trabajo-tic-global-limitada-1118393210.html",
       "id": "61eee0107781",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Edición Profesional de Videos de Fútbol para Instagram",
@@ -364,13 +377,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-09-21",
+      "fecha": "2026-09-22",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/creacion-de-contenido-para-marketing-deportivo-y-clubes-de-futbol",
       "exterior": true,
       "id": "4f6ab376401b",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Editor de Videos Cortos de Fútbol para Tiktok, Instagram y Youtube",
@@ -416,39 +429,52 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-09-12",
+      "fecha": "2026-09-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/creacion-de-contenido-de-video-dinamico-sobre-deportes-y-futbol",
       "exterior": true,
       "id": "638e5e7d4956",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Desarrollo de Contenido Audiovisual para Enseñanza de Ejercicios de Fútbol",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-09-12",
+      "fecha": "2026-09-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/desarrollo-de-contenido-audiovisual-para-ensenanza-de-ejercicios-de-futbol",
       "exterior": false,
       "id": "3301940d0199",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Creación de Edits Dinámicos para Tiktok de Contenido Deportivo y Gaming",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-09-12",
+      "fecha": "2026-09-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/creacion-de-edits-dinamicos-para-tiktok-de-contenido-deportivo-y-gaming",
       "exterior": false,
       "id": "b014a924e3c5",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-12"
+      "ultima_vez": "2026-10-13"
+    },
+    {
+      "titulo": "Diseñador Gráfico para Redes Sociales de Club de Fútbol (Contenido Deportivo)",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Países Bajos",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-13",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/disenador-grafico-para-redes-sociales-de-club-de-futbol-contenido-deportivo",
+      "exterior": true,
+      "id": "42839040b3a5",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Community Manager y Creador de Contenido para Redes Sociales de Tienda de Nutrición Deportiva",
@@ -460,19 +486,6 @@
       "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-tienda-de-nutricion-deportiva",
       "exterior": true,
       "id": "6388579eef04",
-      "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-11"
-    },
-    {
-      "titulo": "Diseñador Gráfico para Redes Sociales de Club de Fútbol (Contenido Deportivo)",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de Países Bajos",
-      "modalidad": "Remoto",
-      "fecha": "2026-09-11",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/disenador-grafico-para-redes-sociales-de-club-de-futbol-contenido-deportivo",
-      "exterior": true,
-      "id": "42839040b3a5",
       "primera_vez": "2026-10-02",
       "ultima_vez": "2026-10-11"
     },
