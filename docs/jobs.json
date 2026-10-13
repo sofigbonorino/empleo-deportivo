@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-13T00:20-03:00",
+  "actualizado": "2026-10-13T14:55-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 326
+      "leidos": 320
     },
     "Bumeran": {
       "ok": true,
@@ -19,7 +19,7 @@
     },
     "Clarín": {
       "ok": true,
-      "leidos": 11
+      "leidos": 12
     },
     "La Nación": {
       "ok": true,
@@ -31,7 +31,7 @@
     },
     "Disney (ESPN)": {
       "ok": true,
-      "leidos": 0
+      "leidos": 1
     }
   },
   "avisos": [
@@ -49,11 +49,24 @@
       "ultima_vez": "2026-10-13"
     },
     {
+      "titulo": "🎮 Editor/a de Tiktok y Reels para videojuego de fútbol chileno",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Chile",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-13",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/editor-a-de-tiktok-y-reels-para-videojuego-de-futbol-chileno",
+      "exterior": true,
+      "id": "465c813720ac",
+      "primera_vez": "2026-10-13",
+      "ultima_vez": "2026-10-13"
+    },
+    {
       "titulo": "Editor de Videos 360 para Contenido de Viajes en Moto y Deportes",
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-10-11",
+      "fecha": "2026-10-10",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-360-para-contenido-de-viajes-en-moto-y-deportes",
       "exterior": true,
@@ -66,7 +79,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Perú",
       "modalidad": "Remoto",
-      "fecha": "2026-10-11",
+      "fecha": "2026-10-10",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/creador-de-contenido-local-en-medellin-para-tour-pov-cultura-urbana-futbol-y-gastronomia",
       "exterior": true,
@@ -92,7 +105,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-10",
+      "fecha": "2026-10-09",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/creador-a-de-contenido-ugc-y-reels-para-marca-de-suplementos-deportivos",
       "exterior": false,
@@ -105,7 +118,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-10",
+      "fecha": "2026-10-09",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-y-campana-de-marketing-en-instagram-para-suplementos-deportivos",
       "exterior": false,
@@ -222,7 +235,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Venezuela",
       "modalidad": "Remoto",
-      "fecha": "2026-10-07",
+      "fecha": "2026-10-06",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-y-creador-de-videos-deportivos-de-tenis-para-redes-sociales",
       "exterior": true,
@@ -481,13 +494,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-09-11",
+      "fecha": "2026-09-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-tienda-de-nutricion-deportiva",
       "exterior": true,
       "id": "6388579eef04",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-11"
+      "ultima_vez": "2026-10-13"
     },
     {
       "titulo": "Buscamos Editores de Contenido para Marca de Moda y Deporte",
