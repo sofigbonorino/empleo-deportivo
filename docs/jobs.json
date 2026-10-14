@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-14T12:41-03:00",
+  "actualizado": "2026-10-14T17:25-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 313
+      "leidos": 315
     },
     "Bumeran": {
       "ok": true,
@@ -15,11 +15,11 @@
     },
     "Workana": {
       "ok": true,
-      "leidos": 132
+      "leidos": 133
     },
     "Clarín": {
       "ok": true,
-      "leidos": 12
+      "leidos": 13
     },
     "La Nación": {
       "ok": true,
@@ -27,7 +27,7 @@
     },
     "Warner (TNT Sports)": {
       "ok": true,
-      "leidos": 11
+      "leidos": 13
     },
     "Disney (ESPN)": {
       "ok": true,
@@ -35,6 +35,45 @@
     }
   },
   "avisos": [
+    {
+      "titulo": "Buscamos Creador de Contenido Generado por el Usuario (Ugc) para Marca de Suplementos Deportivos",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Argentina",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-14",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/buscamos-creador-de-contenido-generado-por-el-usuario-ugc-para-marca-de-suplementos-deportivos",
+      "exterior": false,
+      "id": "df420e6f6f64",
+      "primera_vez": "2026-10-14",
+      "ultima_vez": "2026-10-14"
+    },
+    {
+      "titulo": "Coordinator, Sports Streaming Content (Fixed Term)",
+      "empresa": "Warner Bros. Discovery",
+      "ubicacion": "Buenos Aires, Defensa",
+      "modalidad": "Híbrido",
+      "fecha": "2026-10-14",
+      "fuente": "Warner (TNT Sports)",
+      "link": "https://warnerbros.wd5.myworkdayjobs.com/global/job/Buenos-Aires-Defensa/Coordinator--Sports-Streaming-Content_R000109601",
+      "de_medio": true,
+      "id": "5f300b3c9828",
+      "primera_vez": "2026-10-14",
+      "ultima_vez": "2026-10-14"
+    },
+    {
+      "titulo": "Producción Creativa de Marketing Deportivo (temporal)",
+      "empresa": "Warner Bros. Discovery",
+      "ubicacion": "Buenos Aires, Defensa",
+      "modalidad": "Presencial",
+      "fecha": "2026-10-14",
+      "fuente": "Warner (TNT Sports)",
+      "link": "https://warnerbros.wd5.myworkdayjobs.com/global/job/Buenos-Aires-Defensa/Sport-marketing-creative-producer_R000109536-1",
+      "de_medio": true,
+      "id": "59eb3c95a48c",
+      "primera_vez": "2026-10-14",
+      "ultima_vez": "2026-10-14"
+    },
     {
       "titulo": "Community Manager Empresa Deportiva Postear 3  Veces por Semana",
       "empresa": "",
@@ -464,6 +503,19 @@
       "ultima_vez": "2026-10-14"
     },
     {
+      "titulo": "Editor de Video Creativo para Reels de Marca Deportiva y Lifestyle",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de España",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-14",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/editor-de-video-creativo-para-reels-de-marca-deportiva-y-lifestyle",
+      "exterior": true,
+      "id": "a9a3196b9d9d",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-14"
+    },
+    {
       "titulo": "Editor de Videos Cortos de Fútbol para Tiktok, Instagram y Youtube",
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
@@ -553,19 +605,6 @@
       "id": "4c104eed6926",
       "primera_vez": "2026-10-02",
       "ultima_vez": "2026-10-07"
-    },
-    {
-      "titulo": "Editor de Video Creativo para Reels de Marca Deportiva y Lifestyle",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de España",
-      "modalidad": "Remoto",
-      "fecha": "2026-09-04",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/editor-de-video-creativo-para-reels-de-marca-deportiva-y-lifestyle",
-      "exterior": true,
-      "id": "a9a3196b9d9d",
-      "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-04"
     }
   ]
 }
