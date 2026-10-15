@@ -1,21 +1,21 @@
 {
-  "actualizado": "2026-10-14T17:25-03:00",
+  "actualizado": "2026-10-14T22:11-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 315
+      "leidos": 316
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6538
+      "leidos": 6634
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2730
+      "leidos": 2752
     },
     "Workana": {
       "ok": true,
-      "leidos": 133
+      "leidos": 137
     },
     "Clarín": {
       "ok": true,
@@ -71,6 +71,19 @@
       "link": "https://warnerbros.wd5.myworkdayjobs.com/global/job/Buenos-Aires-Defensa/Sport-marketing-creative-producer_R000109536-1",
       "de_medio": true,
       "id": "59eb3c95a48c",
+      "primera_vez": "2026-10-14",
+      "ultima_vez": "2026-10-14"
+    },
+    {
+      "titulo": "Herramienta Personalizada para Creación de Contenido Gráfico y Textual para Libro de Deportes",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de SE",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-14",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/herramienta-personalizada-para-creacion-de-contenido-grafico-y-textual-para-libro-de-deportes",
+      "exterior": true,
+      "id": "c7595bc2f838",
       "primera_vez": "2026-10-14",
       "ultima_vez": "2026-10-14"
     },
@@ -222,7 +235,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-negocio-deportivo",
       "exterior": true,
