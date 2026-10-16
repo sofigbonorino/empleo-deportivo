@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-15T17:10-03:00",
+  "actualizado": "2026-10-15T21:59-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
@@ -7,15 +7,15 @@
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6634
+      "leidos": 6718
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2752
+      "leidos": 2789
     },
     "Workana": {
       "ok": true,
-      "leidos": 136
+      "leidos": 137
     },
     "Clarín": {
       "ok": true,
@@ -118,13 +118,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Chile",
       "modalidad": "Remoto",
-      "fecha": "2026-09-14",
+      "fecha": "2026-09-15",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-a-de-tiktok-y-reels-para-videojuego-de-futbol-chileno",
       "exterior": true,
       "id": "465c813720ac",
       "primera_vez": "2026-10-13",
-      "ultima_vez": "2026-10-14"
+      "ultima_vez": "2026-10-15"
     },
     {
       "titulo": "Editor de Videos 360 para Contenido de Viajes en Moto y Deportes",
@@ -231,19 +231,6 @@
       "ultima_vez": "2026-10-15"
     },
     {
-      "titulo": "Community Manager y Creador de Contenido para Redes Sociales de Negocio Deportivo",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de Estados Unidos",
-      "modalidad": "Remoto",
-      "fecha": "2026-10-08",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-negocio-deportivo",
-      "exterior": true,
-      "id": "5e820f11dca7",
-      "primera_vez": "2026-10-07",
-      "ultima_vez": "2026-10-15"
-    },
-    {
       "titulo": "Editor de Video para Postproducción Deportiva con Personalización de Contenido",
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
@@ -255,6 +242,19 @@
       "id": "ca4eb0123cd2",
       "primera_vez": "2026-10-07",
       "ultima_vez": "2026-10-12"
+    },
+    {
+      "titulo": "Community Manager y Creador de Contenido para Redes Sociales de Negocio Deportivo",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Estados Unidos",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-01",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-negocio-deportivo",
+      "exterior": true,
+      "id": "5e820f11dca7",
+      "primera_vez": "2026-10-07",
+      "ultima_vez": "2026-10-15"
     },
     {
       "titulo": "Editor de Video Bilingüe Hero | Boxeo Educativo y Masterclass",
