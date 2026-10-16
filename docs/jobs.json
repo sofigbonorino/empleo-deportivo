@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-16T12:09-03:00",
+  "actualizado": "2026-10-16T16:47-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 310
+      "leidos": 312
     },
     "Bumeran": {
       "ok": true,
@@ -15,11 +15,11 @@
     },
     "Workana": {
       "ok": true,
-      "leidos": 138
+      "leidos": 139
     },
     "Clarín": {
       "ok": true,
-      "leidos": 13
+      "leidos": 12
     },
     "La Nación": {
       "ok": true,
@@ -27,7 +27,7 @@
     },
     "Warner (TNT Sports)": {
       "ok": true,
-      "leidos": 13
+      "leidos": 14
     },
     "Disney (ESPN)": {
       "ok": true,
@@ -35,6 +35,45 @@
     }
   },
   "avisos": [
+    {
+      "titulo": "Sports Marketing Analyst (Fixed Term)",
+      "empresa": "Warner Bros. Discovery",
+      "ubicacion": "Buenos Aires, Defensa",
+      "modalidad": "Híbrido",
+      "fecha": "2026-10-16",
+      "fuente": "Warner (TNT Sports)",
+      "link": "https://warnerbros.wd5.myworkdayjobs.com/global/job/Buenos-Aires-Defensa/Sports-Marketing-Analyst--Fixed-Term-_R000109619",
+      "de_medio": true,
+      "id": "e9006eeeca13",
+      "primera_vez": "2026-10-16",
+      "ultima_vez": "2026-10-16"
+    },
+    {
+      "titulo": "Creación de Contenido sobre Cultura Mundial, Gastronomía y Deportes",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Argentina",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-16",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/creacion-de-contenido-sobre-cultura-mundial-gastronomia-y-deportes",
+      "exterior": false,
+      "id": "ed0c84df6bc1",
+      "primera_vez": "2026-10-16",
+      "ultima_vez": "2026-10-16"
+    },
+    {
+      "titulo": "Editor de Videos Verticales Dinámicos para Tiktok/Reels de Torneo de Fútbol",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Argentina",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-16",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/editor-de-videos-verticales-dinamicos-para-tiktok-reels-de-torneo-de-futbol",
+      "exterior": false,
+      "id": "6acd17508979",
+      "primera_vez": "2026-10-16",
+      "ultima_vez": "2026-10-16"
+    },
     {
       "titulo": "Coordinator, Sports Streaming Content (Fixed Term)",
       "empresa": "Warner Bros. Discovery",
@@ -66,7 +105,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-15",
+      "fecha": "2026-10-14",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/buscamos-creador-de-contenido-generado-por-el-usuario-ugc-para-marca-de-suplementos-deportivos",
       "exterior": false,
@@ -105,7 +144,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-10-14",
+      "fecha": "2026-10-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-video-para-youtube-especializado-en-padel",
       "exterior": true,
@@ -131,7 +170,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-10-11",
+      "fecha": "2026-10-10",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-360-para-contenido-de-viajes-en-moto-y-deportes",
       "exterior": true,
