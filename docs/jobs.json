@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-20T12:32-03:00",
+  "actualizado": "2026-10-20T17:16-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 319
+      "leidos": 329
     },
     "Bumeran": {
       "ok": true,
@@ -27,7 +27,7 @@
     },
     "Warner (TNT Sports)": {
       "ok": true,
-      "leidos": 5
+      "leidos": 6
     },
     "Disney (ESPN)": {
       "ok": true,
@@ -170,7 +170,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-15",
+      "fecha": "2026-10-14",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/buscamos-creador-de-contenido-generado-por-el-usuario-ugc-para-marca-de-suplementos-deportivos",
       "exterior": false,
@@ -287,13 +287,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-05",
+      "fecha": "2026-10-06",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/creador-a-de-contenido-ugc-y-reels-para-marca-de-suplementos-deportivos",
       "exterior": false,
       "id": "0efe92ae5152",
       "primera_vez": "2026-10-09",
-      "ultima_vez": "2026-10-19"
+      "ultima_vez": "2026-10-20"
     },
     {
       "titulo": "Editor de Youtube para Videos de Noticias Deportivas en Formato Horizontal",
