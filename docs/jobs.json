@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-21T12:48-03:00",
+  "actualizado": "2026-10-21T17:26-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 334
+      "leidos": 339
     },
     "Bumeran": {
       "ok": true,
@@ -27,7 +27,7 @@
     },
     "Warner (TNT Sports)": {
       "ok": true,
-      "leidos": 6
+      "leidos": 4
     },
     "Disney (ESPN)": {
       "ok": true,
@@ -35,6 +35,19 @@
     }
   },
   "avisos": [
+    {
+      "titulo": "Gestión de Redes Sociales para Contenido de Fútbol",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de México",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-21",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/gestion-de-redes-sociales-para-contenido-de-futbol",
+      "exterior": true,
+      "id": "93ad2da9b7e0",
+      "primera_vez": "2026-10-21",
+      "ultima_vez": "2026-10-21"
+    },
     {
       "titulo": "Especialista en Marketing Digital y Community Management para Servicio de Picks de Esports",
       "empresa": "",
@@ -170,7 +183,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-15",
+      "fecha": "2026-10-14",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/buscamos-creador-de-contenido-generado-por-el-usuario-ugc-para-marca-de-suplementos-deportivos",
       "exterior": false,
