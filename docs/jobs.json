@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-21T17:26-03:00",
+  "actualizado": "2026-10-21T22:10-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 339
+      "leidos": 340
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6439
+      "leidos": 6480
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2667
+      "leidos": 2703
     },
     "Workana": {
       "ok": true,
@@ -27,11 +27,11 @@
     },
     "Warner (TNT Sports)": {
       "ok": true,
-      "leidos": 4
+      "leidos": 6
     },
     "Disney (ESPN)": {
       "ok": true,
-      "leidos": 6
+      "leidos": 7
     }
   },
   "avisos": [
@@ -45,6 +45,32 @@
       "link": "https://www.workana.com/job/gestion-de-redes-sociales-para-contenido-de-futbol",
       "exterior": true,
       "id": "93ad2da9b7e0",
+      "primera_vez": "2026-10-21",
+      "ultima_vez": "2026-10-21"
+    },
+    {
+      "titulo": "Designer Post Production SPORTS (Temporal)",
+      "empresa": "Warner Bros. Discovery",
+      "ubicacion": "Buenos Aires, Defensa",
+      "modalidad": "Presencial",
+      "fecha": "2026-10-21",
+      "fuente": "Warner (TNT Sports)",
+      "link": "https://warnerbros.wd5.myworkdayjobs.com/global/job/Buenos-Aires-Defensa/Designer-Post-Production-SPORTS--Temporal-_R000109626",
+      "de_medio": true,
+      "id": "55ae8dca4acd",
+      "primera_vez": "2026-10-21",
+      "ultima_vez": "2026-10-21"
+    },
+    {
+      "titulo": "Editor de Imagen y Sonido Deportivo (Temporal)",
+      "empresa": "Warner Bros. Discovery",
+      "ubicacion": "Buenos Aires, Defensa",
+      "modalidad": "Presencial",
+      "fecha": "2026-10-21",
+      "fuente": "Warner (TNT Sports)",
+      "link": "https://warnerbros.wd5.myworkdayjobs.com/global/job/Buenos-Aires-Defensa/Editor-de-Imagen-y-Sonido-Deportivo--Temporal-_R000109630",
+      "de_medio": true,
+      "id": "d74b6a632266",
       "primera_vez": "2026-10-21",
       "ultima_vez": "2026-10-21"
     },
