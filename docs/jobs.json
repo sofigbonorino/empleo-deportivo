@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-22T12:46-03:00",
+  "actualizado": "2026-10-22T17:24-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 343
+      "leidos": 347
     },
     "Bumeran": {
       "ok": true,
@@ -35,6 +35,19 @@
     }
   },
   "avisos": [
+    {
+      "titulo": "Buscamos Creador de Contenido Especializado en Cuidado Automotriz y Deportes",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de México",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-22",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/buscamos-creador-de-contenido-especializado-en-cuidado-automotriz-y-deportes",
+      "exterior": true,
+      "id": "28e23ded696a",
+      "primera_vez": "2026-10-22",
+      "ultima_vez": "2026-10-22"
+    },
     {
       "titulo": "Gestión de Redes Sociales para Contenido de Fútbol",
       "empresa": "",
@@ -205,19 +218,6 @@
       "ultima_vez": "2026-10-19"
     },
     {
-      "titulo": "Buscamos Creador de Contenido Generado por el Usuario (Ugc) para Marca de Suplementos Deportivos",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de Argentina",
-      "modalidad": "Remoto",
-      "fecha": "2026-10-15",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/buscamos-creador-de-contenido-generado-por-el-usuario-ugc-para-marca-de-suplementos-deportivos",
-      "exterior": false,
-      "id": "df420e6f6f64",
-      "primera_vez": "2026-10-14",
-      "ultima_vez": "2026-10-22"
-    },
-    {
       "titulo": "Herramienta Personalizada para Creación de Contenido Gráfico y Textual para Libro de Deportes",
       "empresa": "",
       "ubicacion": "Freelance · cliente de SE",
@@ -229,6 +229,19 @@
       "id": "c7595bc2f838",
       "primera_vez": "2026-10-14",
       "ultima_vez": "2026-10-15"
+    },
+    {
+      "titulo": "Buscamos Creador de Contenido Generado por el Usuario (Ugc) para Marca de Suplementos Deportivos",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Argentina",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-08",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/buscamos-creador-de-contenido-generado-por-el-usuario-ugc-para-marca-de-suplementos-deportivos",
+      "exterior": false,
+      "id": "df420e6f6f64",
+      "primera_vez": "2026-10-14",
+      "ultima_vez": "2026-10-22"
     },
     {
       "titulo": "Community Manager Empresa Deportiva Postear 3  Veces por Semana",
