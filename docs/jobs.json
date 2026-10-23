@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-22T17:24-03:00",
+  "actualizado": "2026-10-22T22:10-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
@@ -7,11 +7,11 @@
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6480
+      "leidos": 6449
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2703
+      "leidos": 2699
     },
     "Workana": {
       "ok": true,
@@ -19,7 +19,7 @@
     },
     "Clarín": {
       "ok": true,
-      "leidos": 12
+      "leidos": 11
     },
     "La Nación": {
       "ok": true,
@@ -339,13 +339,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-07",
+      "fecha": "2026-10-08",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/creador-a-de-contenido-ugc-y-reels-para-marca-de-suplementos-deportivos",
       "exterior": false,
       "id": "0efe92ae5152",
       "primera_vez": "2026-10-09",
-      "ultima_vez": "2026-10-21"
+      "ultima_vez": "2026-10-22"
     },
     {
       "titulo": "Editor de Youtube para Videos de Noticias Deportivas en Formato Horizontal",
@@ -358,7 +358,7 @@
       "exterior": true,
       "id": "3c3c900a5dc9",
       "primera_vez": "2026-10-09",
-      "ultima_vez": "2026-10-15"
+      "ultima_vez": "2026-10-22"
     },
     {
       "titulo": "Editor de Video para Reel Comercial de Deportes y Gaming - Entrega Urgente",
@@ -387,19 +387,6 @@
       "ultima_vez": "2026-10-15"
     },
     {
-      "titulo": "Community Manager y Creador de Contenido para Redes Sociales de Negocio Deportivo",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de Estados Unidos",
-      "modalidad": "Remoto",
-      "fecha": "2026-10-08",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-negocio-deportivo",
-      "exterior": true,
-      "id": "5e820f11dca7",
-      "primera_vez": "2026-10-07",
-      "ultima_vez": "2026-10-22"
-    },
-    {
       "titulo": "Editor de Video para Postproducción Deportiva con Personalización de Contenido",
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
@@ -411,6 +398,19 @@
       "id": "ca4eb0123cd2",
       "primera_vez": "2026-10-07",
       "ultima_vez": "2026-10-12"
+    },
+    {
+      "titulo": "Community Manager y Creador de Contenido para Redes Sociales de Negocio Deportivo",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Estados Unidos",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-01",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-negocio-deportivo",
+      "exterior": true,
+      "id": "5e820f11dca7",
+      "primera_vez": "2026-10-07",
+      "ultima_vez": "2026-10-22"
     },
     {
       "titulo": "Desarrollo de Estrategia de Contenido Digital para Marca Personal en Psicología Deportiva",
