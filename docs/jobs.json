@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-10-23T12:37-03:00",
+  "actualizado": "2026-10-23T17:11-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 344
+      "leidos": 339
     },
     "Bumeran": {
       "ok": true,
       "leidos": 6449
     },
     "ZonaJobs": {
-      "ok": false,
-      "error": "Response ended prematurely"
+      "ok": true,
+      "leidos": 2699
     },
     "Workana": {
       "ok": true,
       "leidos": 140
     },
     "Clarín": {
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='clarin.hiringroom.com', port=443): Read timed out. (read timeout=20)"
+      "ok": true,
+      "leidos": 11
     },
     "La Nación": {
       "ok": true,
@@ -31,10 +31,23 @@
     },
     "Disney (ESPN)": {
       "ok": true,
-      "leidos": 7
+      "leidos": 8
     }
   },
   "avisos": [
+    {
+      "titulo": "Especialista en Contenido de Fútbol para Redes Sociales Verificadas (Instagram, Tiktok, X)",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de España",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-23",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/especialista-en-contenido-de-futbol-para-redes-sociales-verificadas-instagram-tiktok-x",
+      "exterior": true,
+      "id": "25131b22ddd0",
+      "primera_vez": "2026-10-23",
+      "ultima_vez": "2026-10-23"
+    },
     {
       "titulo": "Buscamos Creador de Contenido Especializado en Cuidado Automotriz y Deportes",
       "empresa": "",
@@ -53,7 +66,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-10-22",
+      "fecha": "2026-10-21",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/gestion-de-redes-sociales-para-contenido-de-futbol",
       "exterior": true,
@@ -591,7 +604,7 @@
       "exterior": true,
       "id": "734d5918c315",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-09"
+      "ultima_vez": "2026-10-23"
     },
     {
       "titulo": "Editor de Imágenes y Creador de Contenido Deportivo para Redes Sociales",
