@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-23T17:11-03:00",
+  "actualizado": "2026-10-23T22:20-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
@@ -7,11 +7,11 @@
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6449
+      "leidos": 6442
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2699
+      "leidos": 2682
     },
     "Workana": {
       "ok": true,
@@ -31,7 +31,7 @@
     },
     "Disney (ESPN)": {
       "ok": true,
-      "leidos": 8
+      "leidos": 7
     }
   },
   "avisos": [
