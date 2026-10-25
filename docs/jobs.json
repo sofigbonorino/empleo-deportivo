@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-25T11:45-03:00",
+  "actualizado": "2026-10-25T16:26-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 336
+      "leidos": 335
     },
     "Bumeran": {
       "ok": true,
@@ -40,7 +40,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-10-24",
+      "fecha": "2026-10-23",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/especialista-en-contenido-de-futbol-para-redes-sociales-verificadas-instagram-tiktok-x",
       "exterior": true,
@@ -66,7 +66,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-10-22",
+      "fecha": "2026-10-21",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/gestion-de-redes-sociales-para-contenido-de-futbol",
       "exterior": true,
@@ -157,7 +157,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-10-18",
+      "fecha": "2026-10-11",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-con-conocimientos-de-futbol-para-club-deportivo-en-cali",
       "exterior": true,
@@ -624,13 +624,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-09-26",
+      "fecha": "2026-09-25",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/creacion-de-contenido-para-marketing-deportivo-y-clubes-de-futbol",
       "exterior": true,
       "id": "4f6ab376401b",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-24"
+      "ultima_vez": "2026-10-25"
     },
     {
       "titulo": "Edición Profesional de Video de Highlights de Fútbol Americano",
