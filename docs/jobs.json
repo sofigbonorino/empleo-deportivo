@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-25T16:26-03:00",
+  "actualizado": "2026-10-25T21:57-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 335
+      "leidos": 334
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6307
+      "leidos": 6205
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2629
+      "leidos": 2571
     },
     "Workana": {
       "ok": true,
@@ -659,6 +659,19 @@
       "ultima_vez": "2026-10-25"
     },
     {
+      "titulo": "Editor de Video Creativo para Marca Personal y Contenido Deportivo/Educativo (Reels y Youtube)",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de España",
+      "modalidad": "Remoto",
+      "fecha": "2026-09-25",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/editor-de-video-creativo-para-marca-personal-y-contenido-deportivo-educativo-reels-y-youtube",
+      "exterior": true,
+      "id": "3f9bd4870fc8",
+      "primera_vez": "2026-10-02",
+      "ultima_vez": "2026-10-25"
+    },
+    {
       "titulo": "Desarrollo de Contenido Audiovisual para Enseñanza de Ejercicios de Fútbol",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
@@ -709,19 +722,6 @@
       "id": "6388579eef04",
       "primera_vez": "2026-10-02",
       "ultima_vez": "2026-10-19"
-    },
-    {
-      "titulo": "Editor de Video Creativo para Marca Personal y Contenido Deportivo/Educativo (Reels y Youtube)",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de España",
-      "modalidad": "Remoto",
-      "fecha": "2026-09-18",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/editor-de-video-creativo-para-marca-personal-y-contenido-deportivo-educativo-reels-y-youtube",
-      "exterior": true,
-      "id": "3f9bd4870fc8",
-      "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-18"
     },
     {
       "titulo": "Editor de Video Creativo para Reels de Marca Deportiva y Lifestyle",
