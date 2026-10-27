@@ -71,6 +71,12 @@ LEJOS_DE_AMBA = re.compile(
     r"|olavarria|azul|junin|pergamino|san nicolas|tres arroyos|chivilcoy|mar de ajo"
     r"|san clemente|miramar|balcarce|bragado|9 de julio|nueve de julio|trenque lauquen"
 )
+# Avisos "remotos" que en el título piden estar en algún lugar
+# (pasa mucho en Workana: "Creador de contenido local en Medellín", "UGC en México").
+# Un lugar solo en el título no alcanza: "club deportivo en Madrid" puede ser remoto.
+PIDE_ESTAR_EN_OTRO_LADO = re.compile(
+    r"\bpresencial\b|\b(local|ugc|que vivas?|residente|radicad[oa]|ubicad[oa]) en\b"
+)
 
 
 def main():
@@ -149,7 +155,9 @@ def es_relevante(aviso):
 
 
 def en_zona(aviso):
-    """Remoto o sin ubicación: sirve. Presencial/híbrido: solo si es en AMBA."""
+    """En AMBA: sirve. Fuera de AMBA: solo si es remoto de verdad."""
+    if PIDE_ESTAR_EN_OTRO_LADO.search(normalizar(aviso["titulo"])):
+        return False
     if aviso["modalidad"] == "Remoto" or not aviso["ubicacion"]:
         return True
     lugar = normalizar(aviso["ubicacion"])
