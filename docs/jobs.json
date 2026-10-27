@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-27T13:10-03:00",
+  "actualizado": "2026-10-27T18:06-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 339
+      "leidos": 341
     },
     "Bumeran": {
       "ok": true,
@@ -40,7 +40,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-10-24",
+      "fecha": "2026-10-23",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/especialista-en-contenido-de-futbol-para-redes-sociales-verificadas-instagram-tiktok-x",
       "exterior": true,
@@ -66,7 +66,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-10-22",
+      "fecha": "2026-10-21",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/gestion-de-redes-sociales-para-contenido-de-futbol",
       "exterior": true,
@@ -482,26 +482,26 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-09-23",
+      "fecha": "2026-09-27",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/especialista-en-marketing-y-contenido-estrategico-para-proyecto-digital-deportivo",
       "exterior": false,
       "id": "cb9ef14c51cb",
       "primera_vez": "2026-10-06",
-      "ultima_vez": "2026-10-23"
+      "ultima_vez": "2026-10-27"
     },
     {
       "titulo": "Content Creator y Video Editor Freelance para Marca de Suplementos Deportivos",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-09-23",
+      "fecha": "2026-09-27",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/content-creator-y-video-editor-freelance-para-marca-de-suplementos-deportivos",
       "exterior": true,
       "id": "61f371c1d97c",
       "primera_vez": "2026-10-06",
-      "ultima_vez": "2026-10-23"
+      "ultima_vez": "2026-10-27"
     },
     {
       "titulo": "Edición Profesional de Video para Vsl de 28 Minutos sobre Becas Deportivas en Usa",
