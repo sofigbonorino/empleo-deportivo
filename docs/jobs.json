@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-26T14:06-03:00",
+  "actualizado": "2026-10-26T22:47-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 337
+      "leidos": 339
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6205
+      "leidos": 6226
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2571
+      "leidos": 2573
     },
     "Workana": {
       "ok": true,
@@ -40,7 +40,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-10-24",
+      "fecha": "2026-10-23",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/especialista-en-contenido-de-futbol-para-redes-sociales-verificadas-instagram-tiktok-x",
       "exterior": true,
@@ -66,7 +66,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-10-22",
+      "fecha": "2026-10-21",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/gestion-de-redes-sociales-para-contenido-de-futbol",
       "exterior": true,
@@ -183,13 +183,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-09-22",
+      "fecha": "2026-09-26",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-verticales-dinamicos-para-tiktok-reels-de-torneo-de-futbol",
       "exterior": false,
       "id": "6acd17508979",
       "primera_vez": "2026-10-16",
-      "ultima_vez": "2026-10-22"
+      "ultima_vez": "2026-10-26"
     },
     {
       "titulo": "Creación de Contenido sobre Cultura Mundial, Gastronomía y Deportes",
