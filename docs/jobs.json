@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-27T19:10-03:00",
+  "actualizado": "2026-10-27T22:59-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 341
+      "leidos": 342
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6226
+      "leidos": 6310
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2573
+      "leidos": 2630
     },
     "Workana": {
       "ok": true,
@@ -261,13 +261,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-10-09",
+      "fecha": "2026-10-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-video-para-youtube-especializado-en-padel",
       "exterior": true,
       "id": "5e73ab537d8c",
       "primera_vez": "2026-10-13",
-      "ultima_vez": "2026-10-23"
+      "ultima_vez": "2026-10-27"
     },
     {
       "titulo": "🎮 Editor/a de Tiktok y Reels para videojuego de fútbol chileno",
@@ -391,13 +391,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-10-02",
+      "fecha": "2026-10-06",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-negocio-deportivo",
       "exterior": true,
       "id": "5e820f11dca7",
       "primera_vez": "2026-10-07",
-      "ultima_vez": "2026-10-23"
+      "ultima_vez": "2026-10-27"
     },
     {
       "titulo": "Desarrollo de Estrategia de Contenido Digital para Marca Personal en Psicología Deportiva",
@@ -508,13 +508,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-09-22",
+      "fecha": "2026-09-27",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-profesional-para-marca-de-ropa-deportiva-femenina-en-argentina",
       "exterior": false,
       "id": "cc2eaf41935a",
       "primera_vez": "2026-10-05",
-      "ultima_vez": "2026-10-22"
+      "ultima_vez": "2026-10-27"
     },
     {
       "titulo": "Búsqueda de Redactores Deportivos para Medio de Comunicación Digital",
