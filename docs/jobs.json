@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-30T13:55-03:00",
+  "actualizado": "2026-10-30T18:23-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 346
+      "leidos": 348
     },
     "Bumeran": {
       "ok": true,
@@ -27,11 +27,11 @@
     },
     "Warner (TNT Sports)": {
       "ok": true,
-      "leidos": 4
+      "leidos": 5
     },
     "Disney (ESPN)": {
       "ok": true,
-      "leidos": 10
+      "leidos": 7
     }
   },
   "avisos": [
@@ -53,7 +53,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-10-29",
+      "fecha": "2026-10-28",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-video-para-canal-de-futbol-en-youtube-contenido-diario",
       "exterior": true,
@@ -66,7 +66,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-10-24",
+      "fecha": "2026-10-23",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/especialista-en-contenido-de-futbol-para-redes-sociales-verificadas-instagram-tiktok-x",
       "exterior": true,
