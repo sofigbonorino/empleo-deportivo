@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-29T14:17-03:00",
+  "actualizado": "2026-10-29T23:23-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 348
+      "leidos": 349
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6406
+      "leidos": 6371
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2675
+      "leidos": 2663
     },
     "Workana": {
       "ok": true,
@@ -66,7 +66,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-10-24",
+      "fecha": "2026-10-23",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/especialista-en-contenido-de-futbol-para-redes-sociales-verificadas-instagram-tiktok-x",
       "exterior": true,
@@ -85,19 +85,6 @@
       "exterior": true,
       "id": "28e23ded696a",
       "primera_vez": "2026-10-22",
-      "ultima_vez": "2026-10-29"
-    },
-    {
-      "titulo": "Gestión de Redes Sociales para Contenido de Fútbol",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de México",
-      "modalidad": "Remoto",
-      "fecha": "2026-10-22",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/gestion-de-redes-sociales-para-contenido-de-futbol",
-      "exterior": true,
-      "id": "93ad2da9b7e0",
-      "primera_vez": "2026-10-21",
       "ultima_vez": "2026-10-29"
     },
     {
@@ -125,6 +112,19 @@
       "id": "d74b6a632266",
       "primera_vez": "2026-10-21",
       "ultima_vez": "2026-10-27"
+    },
+    {
+      "titulo": "Gestión de Redes Sociales para Contenido de Fútbol",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de México",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-15",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/gestion-de-redes-sociales-para-contenido-de-futbol",
+      "exterior": true,
+      "id": "93ad2da9b7e0",
+      "primera_vez": "2026-10-21",
+      "ultima_vez": "2026-10-29"
     },
     {
       "titulo": "Especialista en Marketing Digital y Community Management para Servicio de Picks de Esports",
@@ -244,19 +244,6 @@
       "ultima_vez": "2026-10-19"
     },
     {
-      "titulo": "Buscamos Creador de Contenido Generado por el Usuario (Ugc) para Marca de Suplementos Deportivos",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de Argentina",
-      "modalidad": "Remoto",
-      "fecha": "2026-10-15",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/buscamos-creador-de-contenido-generado-por-el-usuario-ugc-para-marca-de-suplementos-deportivos",
-      "exterior": false,
-      "id": "df420e6f6f64",
-      "primera_vez": "2026-10-14",
-      "ultima_vez": "2026-10-29"
-    },
-    {
       "titulo": "Herramienta Personalizada para Creación de Contenido Gráfico y Textual para Libro de Deportes",
       "empresa": "",
       "ubicacion": "Freelance · cliente de SE",
@@ -268,6 +255,19 @@
       "id": "c7595bc2f838",
       "primera_vez": "2026-10-14",
       "ultima_vez": "2026-10-15"
+    },
+    {
+      "titulo": "Buscamos Creador de Contenido Generado por el Usuario (Ugc) para Marca de Suplementos Deportivos",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Argentina",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-08",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/buscamos-creador-de-contenido-generado-por-el-usuario-ugc-para-marca-de-suplementos-deportivos",
+      "exterior": false,
+      "id": "df420e6f6f64",
+      "primera_vez": "2026-10-14",
+      "ultima_vez": "2026-10-29"
     },
     {
       "titulo": "Community Manager Empresa Deportiva Postear 3  Veces por Semana",
