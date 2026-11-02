@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-01T18:03-03:00",
+  "actualizado": "2026-11-01T23:03-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
@@ -7,11 +7,11 @@
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6221
+      "leidos": 6100
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2600
+      "leidos": 2551
     },
     "Workana": {
       "ok": true,
