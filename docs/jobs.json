@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-11-03T15:13-03:00",
+  "actualizado": "2026-11-03T23:52-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 341
+      "leidos": 339
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6059
+      "leidos": 6167
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2548
+      "leidos": 2595
     },
     "Workana": {
       "ok": true,
@@ -23,11 +23,11 @@
     },
     "La Nación": {
       "ok": true,
-      "leidos": 8
+      "leidos": 9
     },
     "Warner (TNT Sports)": {
       "ok": true,
-      "leidos": 4
+      "leidos": 3
     },
     "Disney (ESPN)": {
       "ok": true,
@@ -66,7 +66,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-10-29",
+      "fecha": "2026-10-28",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-video-para-canal-de-futbol-en-youtube-contenido-diario",
       "exterior": true,
@@ -534,13 +534,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-10-05",
+      "fecha": "2026-10-04",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/produccion-de-programa-de-streaming-sobre-futbol-y-relatos-personales",
       "exterior": false,
       "id": "d1e0dca6d551",
       "primera_vez": "2026-10-05",
-      "ultima_vez": "2026-11-02"
+      "ultima_vez": "2026-11-03"
     },
     {
       "titulo": "Editor de Videos Profesional para Marca de Ropa Deportiva Femenina en Argentina",
