@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-05T00:06-03:00",
+  "actualizado": "2026-11-05T15:29-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 348
+      "leidos": 351
     },
     "Bumeran": {
       "ok": true,
@@ -19,7 +19,7 @@
     },
     "Clarín": {
       "ok": true,
-      "leidos": 11
+      "leidos": 10
     },
     "La Nación": {
       "ok": true,
@@ -40,7 +40,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-11-03",
+      "fecha": "2026-11-02",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/guionista-narrador-y-editor-de-contenido-para-canal-de-futbol-en-youtube",
       "exterior": true,
@@ -53,7 +53,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Uruguay",
       "modalidad": "Remoto",
-      "fecha": "2026-10-30",
+      "fecha": "2026-10-29",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-audiovisual-creativo-para-canal-de-youtube-de-documentales-de-futbol",
       "exterior": true,
