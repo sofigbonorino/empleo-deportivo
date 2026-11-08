@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-07T17:38-03:00",
+  "actualizado": "2026-11-07T23:01-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
@@ -7,11 +7,11 @@
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6303
+      "leidos": 6195
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2621
+      "leidos": 2576
     },
     "Workana": {
       "ok": true,
@@ -35,6 +35,19 @@
     }
   },
   "avisos": [
+    {
+      "titulo": "Editor de Video Cinematográfico para Marca de Moda Deportiva Premium",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de España",
+      "modalidad": "Remoto",
+      "fecha": "2026-11-07",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/editor-de-video-cinematografico-para-marca-de-moda-deportiva-premium",
+      "exterior": true,
+      "id": "4bf2ff33d185",
+      "primera_vez": "2026-11-07",
+      "ultima_vez": "2026-11-07"
+    },
     {
       "titulo": "Desarrollo de Identidad Deportiva y Estrategia de Contenido",
       "empresa": "",
@@ -144,13 +157,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-10-20",
+      "fecha": "2026-10-17",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/gestion-de-redes-sociales-para-contenido-de-futbol",
       "exterior": true,
       "id": "93ad2da9b7e0",
       "primera_vez": "2026-10-21",
-      "ultima_vez": "2026-11-03"
+      "ultima_vez": "2026-11-07"
     },
     {
       "titulo": "Especialista en Marketing Digital y Community Management para Servicio de Picks de Esports",
