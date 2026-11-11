@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-11-10T15:27-03:00",
+  "actualizado": "2026-11-10T23:29-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 322
+      "leidos": 323
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 5959
+      "leidos": 6028
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2492
+      "leidos": 2527
     },
     "Workana": {
       "ok": true,
@@ -79,7 +79,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-11-08",
+      "fecha": "2026-11-07",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-video-cinematografico-para-marca-de-moda-deportiva-premium",
       "exterior": true,
@@ -439,6 +439,19 @@
       "ultima_vez": "2026-11-10"
     },
     {
+      "titulo": "Editor de Youtube para Videos de Noticias Deportivas en Formato Horizontal",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de España",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-11",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/editor-de-youtube-para-videos-de-noticias-deportivas-en-formato-horizontal",
+      "exterior": true,
+      "id": "3c3c900a5dc9",
+      "primera_vez": "2026-10-09",
+      "ultima_vez": "2026-11-10"
+    },
+    {
       "titulo": "Editor de Video para Contenido de Redes Sociales de Escuela Deportiva (Reels/Tiktok)",
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
@@ -450,19 +463,6 @@
       "id": "f7dffbc2a020",
       "primera_vez": "2026-10-09",
       "ultima_vez": "2026-11-02"
-    },
-    {
-      "titulo": "Editor de Youtube para Videos de Noticias Deportivas en Formato Horizontal",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de España",
-      "modalidad": "Remoto",
-      "fecha": "2026-10-02",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/editor-de-youtube-para-videos-de-noticias-deportivas-en-formato-horizontal",
-      "exterior": true,
-      "id": "3c3c900a5dc9",
-      "primera_vez": "2026-10-09",
-      "ultima_vez": "2026-11-01"
     },
     {
       "titulo": "Editor de Video para Reel Comercial de Deportes y Gaming - Entrega Urgente",
