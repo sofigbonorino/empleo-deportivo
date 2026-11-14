@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-11-14T13:50-03:00",
+  "actualizado": "2026-11-14T18:03-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 315
+      "leidos": 314
     },
     "Bumeran": {
-      "ok": false,
-      "error": "403 Client Error: Forbidden for url: https://www.bumeran.com.ar/sitemap_avisos_bum.xml"
+      "ok": true,
+      "leidos": 5997
     },
     "ZonaJobs": {
-      "ok": false,
-      "error": "403 Client Error: Forbidden for url: https://www.zonajobs.com.ar/sitemap_avisos_zj.xml"
+      "ok": true,
+      "leidos": 2485
     },
     "Workana": {
       "ok": true,
@@ -40,7 +40,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-11-10",
+      "fecha": "2026-11-09",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/servicio-profesional-de-traduccion-ingles-espanol-y-creacion-de-contenido-deportivo",
       "exterior": true,
@@ -144,7 +144,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-10-24",
+      "fecha": "2026-10-17",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/especialista-en-contenido-de-futbol-para-redes-sociales-verificadas-instagram-tiktok-x",
       "exterior": true,
