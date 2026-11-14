@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-11-13T15:21-03:00",
+  "actualizado": "2026-11-13T23:53-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 324
+      "leidos": 322
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 5977
+      "leidos": 5997
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2523
+      "leidos": 2485
     },
     "Workana": {
       "ok": true,
@@ -26,8 +26,8 @@
       "leidos": 9
     },
     "Warner (TNT Sports)": {
-      "ok": true,
-      "leidos": 0
+      "ok": false,
+      "error": "521 Server Error: <none> for url: https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs"
     },
     "Disney (ESPN)": {
       "ok": true,
@@ -40,7 +40,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-11-10",
+      "fecha": "2026-11-09",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/servicio-profesional-de-traduccion-ingles-espanol-y-creacion-de-contenido-deportivo",
       "exterior": true,
