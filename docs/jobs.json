@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-11-14T18:03-03:00",
+  "actualizado": "2026-11-14T23:21-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 314
+      "leidos": 315
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 5997
+      "leidos": 5923
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2485
+      "leidos": 2423
     },
     "Workana": {
       "ok": true,
@@ -35,6 +35,19 @@
     }
   },
   "avisos": [
+    {
+      "titulo": "Redacción y Gestión de Contenido Especializado en Nichos de Cultura, Música, Ciencia o Deportes",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Argentina",
+      "modalidad": "Remoto",
+      "fecha": "2026-11-14",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/redaccion-y-gestion-de-contenido-especializado-en-nichos-de-cultura-musica-ciencia-o-deportes",
+      "exterior": false,
+      "id": "bf36d2a773de",
+      "primera_vez": "2026-11-14",
+      "ultima_vez": "2026-11-14"
+    },
     {
       "titulo": "Servicio Profesional de Traducción Inglés-Español y Creación de Contenido Deportivo",
       "empresa": "",
