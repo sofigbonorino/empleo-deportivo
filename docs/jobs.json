@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-11-15T14:32-03:00",
+  "actualizado": "2026-11-15T23:32-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 312
+      "leidos": 310
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 5923
+      "leidos": 5810
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2423
+      "leidos": 2391
     },
     "Workana": {
       "ok": true,
@@ -66,7 +66,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-11-10",
+      "fecha": "2026-11-09",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/servicio-profesional-de-traduccion-ingles-espanol-y-creacion-de-contenido-deportivo",
       "exterior": true,
