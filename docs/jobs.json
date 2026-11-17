@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-17T01:56-03:00",
+  "actualizado": "2026-11-17T16:34-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 309
+      "leidos": 311
     },
     "Bumeran": {
       "ok": true,
@@ -15,7 +15,7 @@
     },
     "Workana": {
       "ok": true,
-      "leidos": 145
+      "leidos": 146
     },
     "Clarín": {
       "ok": true,
@@ -26,8 +26,8 @@
       "leidos": 9
     },
     "Warner (TNT Sports)": {
-      "ok": true,
-      "leidos": 1
+      "ok": false,
+      "error": "429 Client Error: Too Many Requests for url: https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs"
     },
     "Disney (ESPN)": {
       "ok": true,
@@ -36,11 +36,24 @@
   },
   "avisos": [
     {
+      "titulo": "Community Manager para Expansión en Instagram de Negocio de Suplementación Deportiva",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de Colombia",
+      "modalidad": "Remoto",
+      "fecha": "2026-11-16",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/community-manager-para-expansion-en-instagram-de-negocio-de-suplementacion-deportiva",
+      "exterior": true,
+      "id": "60b3ca0cdc9d",
+      "primera_vez": "2026-11-17",
+      "ultima_vez": "2026-11-17"
+    },
+    {
       "titulo": "Editor de Vídeos Creativo para Contenido Motivacional de Marca Deportiva Qavo",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Países Bajos",
       "modalidad": "Remoto",
-      "fecha": "2026-11-16",
+      "fecha": "2026-11-15",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-creativo-para-contenido-motivacional-de-marca-deportiva-qavo",
       "exterior": true,
@@ -118,13 +131,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-11-05",
+      "fecha": "2026-11-03",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/desarrollo-de-identidad-deportiva-y-estrategia-de-contenido",
       "exterior": true,
       "id": "afcaa3156f24",
       "primera_vez": "2026-11-07",
-      "ultima_vez": "2026-11-08"
+      "ultima_vez": "2026-11-17"
     },
     {
       "titulo": "Guionista, Narrador y Editor de Contenido para Canal de Fútbol en Youtube",
@@ -274,13 +287,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-10-11",
+      "fecha": "2026-10-18",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-con-conocimientos-de-futbol-para-club-deportivo-en-cali",
       "exterior": true,
       "id": "e9b4016e52ea",
       "primera_vez": "2026-10-17",
-      "ultima_vez": "2026-11-08"
+      "ultima_vez": "2026-11-17"
     },
     {
       "titulo": "Sports Marketing Analyst (Fixed Term)",
