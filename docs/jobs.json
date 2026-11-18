@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-18T01:00-03:00",
+  "actualizado": "2026-11-18T16:13-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 311
+      "leidos": 315
     },
     "Bumeran": {
       "ok": true,
@@ -15,7 +15,7 @@
     },
     "Workana": {
       "ok": true,
-      "leidos": 146
+      "leidos": 147
     },
     "Clarín": {
       "ok": true,
@@ -23,11 +23,11 @@
     },
     "La Nación": {
       "ok": true,
-      "leidos": 9
+      "leidos": 11
     },
     "Warner (TNT Sports)": {
-      "ok": false,
-      "error": "429 Client Error: Too Many Requests for url: https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs"
+      "ok": true,
+      "leidos": 1
     },
     "Disney (ESPN)": {
       "ok": true,
@@ -36,11 +36,24 @@
   },
   "avisos": [
     {
+      "titulo": "Freelance Viral Content & Social Media Strategist for Sports Marketing",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de España",
+      "modalidad": "Remoto",
+      "fecha": "2026-11-18",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/freelance-viral-content-social-media-strategist-for-sports-marketing",
+      "exterior": true,
+      "id": "fec718612122",
+      "primera_vez": "2026-11-18",
+      "ultima_vez": "2026-11-18"
+    },
+    {
       "titulo": "Community Manager para Expansión en Instagram de Negocio de Suplementación Deportiva",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-11-17",
+      "fecha": "2026-11-16",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-para-expansion-en-instagram-de-negocio-de-suplementacion-deportiva",
       "exterior": true,
@@ -53,7 +66,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Países Bajos",
       "modalidad": "Remoto",
-      "fecha": "2026-11-16",
+      "fecha": "2026-11-15",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-creativo-para-contenido-motivacional-de-marca-deportiva-qavo",
       "exterior": true,
