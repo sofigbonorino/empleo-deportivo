@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-19T00:57-03:00",
+  "actualizado": "2026-11-19T16:19-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 316
+      "leidos": 322
     },
     "Bumeran": {
       "ok": true,
@@ -15,7 +15,7 @@
     },
     "Workana": {
       "ok": true,
-      "leidos": 147
+      "leidos": 149
     },
     "Clarín": {
       "ok": true,
@@ -36,6 +36,19 @@
   },
   "avisos": [
     {
+      "titulo": "Búsqueda de Expertos en Marketing y Edición de Video para Tienda de Camisetas de Fútbol",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de México",
+      "modalidad": "Remoto",
+      "fecha": "2026-11-19",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/busqueda-de-expertos-en-marketing-y-edicion-de-video-para-tienda-de-camisetas-de-futbol",
+      "exterior": true,
+      "id": "db734069d4e0",
+      "primera_vez": "2026-11-19",
+      "ultima_vez": "2026-11-19"
+    },
+    {
       "titulo": "Freelance Viral Content & Social Media Strategist for Sports Marketing",
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
@@ -53,7 +66,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-11-17",
+      "fecha": "2026-11-16",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-para-expansion-en-instagram-de-negocio-de-suplementacion-deportiva",
       "exterior": true,
@@ -66,7 +79,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Países Bajos",
       "modalidad": "Remoto",
-      "fecha": "2026-11-16",
+      "fecha": "2026-11-15",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-creativo-para-contenido-motivacional-de-marca-deportiva-qavo",
       "exterior": true,
