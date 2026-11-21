@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-21T00:43-03:00",
+  "actualizado": "2026-11-21T14:51-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 329
+      "leidos": 327
     },
     "Bumeran": {
       "ok": true,
@@ -15,7 +15,7 @@
     },
     "Workana": {
       "ok": true,
-      "leidos": 149
+      "leidos": 150
     },
     "Clarín": {
       "ok": true,
@@ -26,8 +26,8 @@
       "leidos": 11
     },
     "Warner (TNT Sports)": {
-      "ok": true,
-      "leidos": 2
+      "ok": false,
+      "error": "429 Client Error: Too Many Requests for url: https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs"
     },
     "Disney (ESPN)": {
       "ok": true,
@@ -52,7 +52,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-11-20",
+      "fecha": "2026-11-19",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/busqueda-de-expertos-en-marketing-y-edicion-de-video-para-tienda-de-camisetas-de-futbol",
       "exterior": true,
@@ -65,7 +65,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-11-19",
+      "fecha": "2026-11-18",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/freelance-viral-content-social-media-strategist-for-sports-marketing",
       "exterior": true,
@@ -78,7 +78,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-11-17",
+      "fecha": "2026-11-16",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-para-expansion-en-instagram-de-negocio-de-suplementacion-deportiva",
       "exterior": true,
@@ -91,7 +91,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Países Bajos",
       "modalidad": "Remoto",
-      "fecha": "2026-11-16",
+      "fecha": "2026-11-15",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-creativo-para-contenido-motivacional-de-marca-deportiva-qavo",
       "exterior": true,
@@ -559,13 +559,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-10-14",
+      "fecha": "2026-10-22",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-negocio-deportivo",
       "exterior": true,
       "id": "5e820f11dca7",
       "primera_vez": "2026-10-07",
-      "ultima_vez": "2026-11-13"
+      "ultima_vez": "2026-11-21"
     },
     {
       "titulo": "Desarrollo de Estrategia de Contenido Digital para Marca Personal en Psicología Deportiva",
