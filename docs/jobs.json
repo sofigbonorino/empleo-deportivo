@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-21T23:47-03:00",
+  "actualizado": "2026-11-22T15:12-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 325
+      "leidos": 324
     },
     "Bumeran": {
       "ok": true,
@@ -26,8 +26,8 @@
       "leidos": 11
     },
     "Warner (TNT Sports)": {
-      "ok": true,
-      "leidos": 2
+      "ok": false,
+      "error": "429 Client Error: Too Many Requests for url: https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs"
     },
     "Disney (ESPN)": {
       "ok": true,
@@ -45,7 +45,7 @@
       "link": "https://www.bumeran.com.ar/empleos/vendedora-para-local-de-padel-ventas-y-redes-sociales-smash-padel-vdp-1118671841.html",
       "id": "4f160173a6c9",
       "primera_vez": "2026-11-21",
-      "ultima_vez": "2026-11-21"
+      "ultima_vez": "2026-11-22"
     },
     {
       "titulo": "Búsqueda de Expertos en Marketing y Edición de Video para Tienda de Camisetas de Fútbol",
@@ -58,7 +58,7 @@
       "exterior": true,
       "id": "db734069d4e0",
       "primera_vez": "2026-11-19",
-      "ultima_vez": "2026-11-21"
+      "ultima_vez": "2026-11-22"
     },
     {
       "titulo": "Freelance Viral Content & Social Media Strategist for Sports Marketing",
@@ -71,7 +71,7 @@
       "exterior": true,
       "id": "fec718612122",
       "primera_vez": "2026-11-18",
-      "ultima_vez": "2026-11-21"
+      "ultima_vez": "2026-11-22"
     },
     {
       "titulo": "Community Manager para Expansión en Instagram de Negocio de Suplementación Deportiva",
@@ -84,7 +84,7 @@
       "exterior": true,
       "id": "60b3ca0cdc9d",
       "primera_vez": "2026-11-17",
-      "ultima_vez": "2026-11-21"
+      "ultima_vez": "2026-11-22"
     },
     {
       "titulo": "Editor de Vídeos Creativo para Contenido Motivacional de Marca Deportiva Qavo",
@@ -97,33 +97,33 @@
       "exterior": true,
       "id": "a8c35625ed35",
       "primera_vez": "2026-11-15",
-      "ultima_vez": "2026-11-21"
+      "ultima_vez": "2026-11-22"
     },
     {
       "titulo": "Redacción y Gestión de Contenido Especializado en Nichos de Cultura, Música, Ciencia o Deportes",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-11-14",
+      "fecha": "2026-11-15",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/redaccion-y-gestion-de-contenido-especializado-en-nichos-de-cultura-musica-ciencia-o-deportes",
       "exterior": false,
       "id": "bf36d2a773de",
       "primera_vez": "2026-11-14",
-      "ultima_vez": "2026-11-21"
+      "ultima_vez": "2026-11-22"
     },
     {
       "titulo": "Servicio Profesional de Traducción Inglés-Español y Creación de Contenido Deportivo",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-11-07",
+      "fecha": "2026-11-08",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/servicio-profesional-de-traduccion-ingles-espanol-y-creacion-de-contenido-deportivo",
       "exterior": true,
       "id": "39e259f66f37",
       "primera_vez": "2026-11-10",
-      "ultima_vez": "2026-11-21"
+      "ultima_vez": "2026-11-22"
     },
     {
       "titulo": "Experto en Edición de Reels Publicitarios para Plataforma Deportiva",
@@ -143,13 +143,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-11-07",
+      "fecha": "2026-11-08",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/busqueda-de-editores-de-video-para-contenido-de-deportes-acuaticos-y-surfskate",
       "exterior": true,
       "id": "8010c3730099",
       "primera_vez": "2026-11-08",
-      "ultima_vez": "2026-11-21"
+      "ultima_vez": "2026-11-22"
     },
     {
       "titulo": "Editor de Video Cinematográfico para Marca de Moda Deportiva Premium",
@@ -169,13 +169,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-10-31",
+      "fecha": "2026-11-01",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/desarrollo-de-identidad-deportiva-y-estrategia-de-contenido",
       "exterior": true,
       "id": "afcaa3156f24",
       "primera_vez": "2026-11-07",
-      "ultima_vez": "2026-11-21"
+      "ultima_vez": "2026-11-22"
     },
     {
       "titulo": "Guionista, Narrador y Editor de Contenido para Canal de Fútbol en Youtube",
@@ -243,6 +243,19 @@
       "ultima_vez": "2026-11-14"
     },
     {
+      "titulo": "Gestión de Redes Sociales para Contenido de Fútbol",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de México",
+      "modalidad": "Remoto",
+      "fecha": "2026-10-23",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/gestion-de-redes-sociales-para-contenido-de-futbol",
+      "exterior": true,
+      "id": "93ad2da9b7e0",
+      "primera_vez": "2026-10-21",
+      "ultima_vez": "2026-11-22"
+    },
+    {
       "titulo": "Designer Post Production SPORTS (Temporal)",
       "empresa": "Warner Bros. Discovery",
       "ubicacion": "Buenos Aires, Defensa",
@@ -267,19 +280,6 @@
       "id": "d74b6a632266",
       "primera_vez": "2026-10-21",
       "ultima_vez": "2026-10-27"
-    },
-    {
-      "titulo": "Gestión de Redes Sociales para Contenido de Fútbol",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de México",
-      "modalidad": "Remoto",
-      "fecha": "2026-10-19",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/gestion-de-redes-sociales-para-contenido-de-futbol",
-      "exterior": true,
-      "id": "93ad2da9b7e0",
-      "primera_vez": "2026-10-21",
-      "ultima_vez": "2026-11-09"
     },
     {
       "titulo": "Especialista en Marketing Digital y Community Management para Servicio de Picks de Esports",
@@ -325,13 +325,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-10-22",
+      "fecha": "2026-10-23",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-con-conocimientos-de-futbol-para-club-deportivo-en-cali",
       "exterior": true,
       "id": "e9b4016e52ea",
       "primera_vez": "2026-10-17",
-      "ultima_vez": "2026-11-21"
+      "ultima_vez": "2026-11-22"
     },
     {
       "titulo": "Sports Marketing Analyst (Fixed Term)",
@@ -624,13 +624,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Venezuela",
       "modalidad": "Remoto",
-      "fecha": "2026-10-22",
+      "fecha": "2026-10-23",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-y-creador-de-videos-deportivos-de-tenis-para-redes-sociales",
       "exterior": true,
       "id": "b2c490df94ca",
       "primera_vez": "2026-10-06",
-      "ultima_vez": "2026-11-21"
+      "ultima_vez": "2026-11-22"
     },
     {
       "titulo": "Especialista en Marketing y Contenido Estratégico para Proyecto Digital Deportivo",
@@ -728,13 +728,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Ecuador",
       "modalidad": "Remoto",
-      "fecha": "2026-10-22",
+      "fecha": "2026-10-23",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-imagenes-y-creador-de-contenido-deportivo-para-redes-sociales",
       "exterior": true,
       "id": "a32a9e03d2bf",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-11-21"
+      "ultima_vez": "2026-11-22"
     },
     {
       "titulo": "Creación de Contenido para Marketing Deportivo y Clubes de Fútbol",
@@ -929,19 +929,6 @@
       "id": "7dda8af5df76",
       "primera_vez": "2026-10-02",
       "ultima_vez": "2026-10-08"
-    },
-    {
-      "titulo": "Editor/a de Vídeo para Canal de Youtube de Boxeo y Mma (Contenido Semanal Recurrente)",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de España",
-      "modalidad": "Remoto",
-      "fecha": "2026-09-07",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/editor-a-de-video-para-canal-de-youtube-de-boxeo-y-mma-contenido-semanal-recurrente",
-      "exterior": true,
-      "id": "4c104eed6926",
-      "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-07"
     }
   ]
 }
