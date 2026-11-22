@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-11-21T14:51-03:00",
+  "actualizado": "2026-11-21T23:47-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 327
+      "leidos": 325
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 6017
+      "leidos": 5918
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2492
+      "leidos": 2448
     },
     "Workana": {
       "ok": true,
@@ -26,8 +26,8 @@
       "leidos": 11
     },
     "Warner (TNT Sports)": {
-      "ok": false,
-      "error": "429 Client Error: Too Many Requests for url: https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs"
+      "ok": true,
+      "leidos": 2
     },
     "Disney (ESPN)": {
       "ok": true,
@@ -104,7 +104,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-11-15",
+      "fecha": "2026-11-14",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/redaccion-y-gestion-de-contenido-especializado-en-nichos-de-cultura-musica-ciencia-o-deportes",
       "exterior": false,
