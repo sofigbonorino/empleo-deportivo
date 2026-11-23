@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-23T00:28-03:00",
+  "actualizado": "2026-11-23T19:26-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 320
+      "leidos": 319
     },
     "Bumeran": {
       "ok": true,
@@ -15,7 +15,7 @@
     },
     "Workana": {
       "ok": true,
-      "leidos": 152
+      "leidos": 151
     },
     "Clarín": {
       "ok": true,
@@ -65,7 +65,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-11-20",
+      "fecha": "2026-11-19",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/busqueda-de-expertos-en-marketing-y-edicion-de-video-para-tienda-de-camisetas-de-futbol",
       "exterior": true,
@@ -78,7 +78,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-11-19",
+      "fecha": "2026-11-18",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/freelance-viral-content-social-media-strategist-for-sports-marketing",
       "exterior": true,
@@ -104,7 +104,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Países Bajos",
       "modalidad": "Remoto",
-      "fecha": "2026-11-16",
+      "fecha": "2026-11-09",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-creativo-para-contenido-motivacional-de-marca-deportiva-qavo",
       "exterior": true,
@@ -130,13 +130,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-11-08",
+      "fecha": "2026-11-09",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/servicio-profesional-de-traduccion-ingles-espanol-y-creacion-de-contenido-deportivo",
       "exterior": true,
       "id": "39e259f66f37",
       "primera_vez": "2026-11-10",
-      "ultima_vez": "2026-11-22"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Experto en Edición de Reels Publicitarios para Plataforma Deportiva",
@@ -149,14 +149,14 @@
       "exterior": true,
       "id": "48b309ff7bda",
       "primera_vez": "2026-11-09",
-      "ultima_vez": "2026-11-14"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Búsqueda de Editores de Video para Contenido de Deportes Acuáticos y Surfskate",
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-11-09",
+      "fecha": "2026-11-02",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/busqueda-de-editores-de-video-para-contenido-de-deportes-acuaticos-y-surfskate",
       "exterior": true,
@@ -754,13 +754,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-10-15",
+      "fecha": "2026-10-24",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/creacion-de-contenido-para-marketing-deportivo-y-clubes-de-futbol",
       "exterior": true,
       "id": "4f6ab376401b",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-11-14"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Gestión de Redes Sociales (Instagram y Facebook) + Creación de Imágenes para Fitsport Solutions",
