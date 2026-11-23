@@ -1,21 +1,21 @@
 {
-  "actualizado": "2026-11-22T15:12-03:00",
+  "actualizado": "2026-11-23T00:28-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 324
+      "leidos": 320
     },
     "Bumeran": {
       "ok": true,
-      "leidos": 5918
+      "leidos": 5830
     },
     "ZonaJobs": {
       "ok": true,
-      "leidos": 2448
+      "leidos": 2411
     },
     "Workana": {
       "ok": true,
-      "leidos": 150
+      "leidos": 152
     },
     "Clarín": {
       "ok": true,
@@ -36,6 +36,19 @@
   },
   "avisos": [
     {
+      "titulo": "Editor de Vídeos de Fútbol con Estilo Cinematográfico y Documental",
+      "empresa": "",
+      "ubicacion": "Freelance · cliente de México",
+      "modalidad": "Remoto",
+      "fecha": "2026-11-22",
+      "fuente": "Workana",
+      "link": "https://www.workana.com/job/editor-de-videos-de-futbol-con-estilo-cinematografico-y-documental",
+      "exterior": true,
+      "id": "53ab960cf700",
+      "primera_vez": "2026-11-23",
+      "ultima_vez": "2026-11-23"
+    },
+    {
       "titulo": "Vendedora para local de padel ventas y redes sociales smash padel vdp",
       "empresa": "",
       "ubicacion": "",
@@ -45,33 +58,33 @@
       "link": "https://www.bumeran.com.ar/empleos/vendedora-para-local-de-padel-ventas-y-redes-sociales-smash-padel-vdp-1118671841.html",
       "id": "4f160173a6c9",
       "primera_vez": "2026-11-21",
-      "ultima_vez": "2026-11-22"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Búsqueda de Expertos en Marketing y Edición de Video para Tienda de Camisetas de Fútbol",
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-11-19",
+      "fecha": "2026-11-20",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/busqueda-de-expertos-en-marketing-y-edicion-de-video-para-tienda-de-camisetas-de-futbol",
       "exterior": true,
       "id": "db734069d4e0",
       "primera_vez": "2026-11-19",
-      "ultima_vez": "2026-11-22"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Freelance Viral Content & Social Media Strategist for Sports Marketing",
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-11-18",
+      "fecha": "2026-11-19",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/freelance-viral-content-social-media-strategist-for-sports-marketing",
       "exterior": true,
       "id": "fec718612122",
       "primera_vez": "2026-11-18",
-      "ultima_vez": "2026-11-22"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Community Manager para Expansión en Instagram de Negocio de Suplementación Deportiva",
@@ -91,26 +104,26 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Países Bajos",
       "modalidad": "Remoto",
-      "fecha": "2026-11-15",
+      "fecha": "2026-11-16",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-videos-creativo-para-contenido-motivacional-de-marca-deportiva-qavo",
       "exterior": true,
       "id": "a8c35625ed35",
       "primera_vez": "2026-11-15",
-      "ultima_vez": "2026-11-22"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Redacción y Gestión de Contenido Especializado en Nichos de Cultura, Música, Ciencia o Deportes",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Argentina",
       "modalidad": "Remoto",
-      "fecha": "2026-11-15",
+      "fecha": "2026-11-09",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/redaccion-y-gestion-de-contenido-especializado-en-nichos-de-cultura-musica-ciencia-o-deportes",
       "exterior": false,
       "id": "bf36d2a773de",
       "primera_vez": "2026-11-14",
-      "ultima_vez": "2026-11-22"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Servicio Profesional de Traducción Inglés-Español y Creación de Contenido Deportivo",
@@ -143,39 +156,39 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-11-08",
+      "fecha": "2026-11-09",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/busqueda-de-editores-de-video-para-contenido-de-deportes-acuaticos-y-surfskate",
       "exterior": true,
       "id": "8010c3730099",
       "primera_vez": "2026-11-08",
-      "ultima_vez": "2026-11-22"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Editor de Video Cinematográfico para Marca de Moda Deportiva Premium",
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-11-08",
+      "fecha": "2026-11-02",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-video-cinematografico-para-marca-de-moda-deportiva-premium",
       "exterior": true,
       "id": "4bf2ff33d185",
       "primera_vez": "2026-11-07",
-      "ultima_vez": "2026-11-13"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Desarrollo de Identidad Deportiva y Estrategia de Contenido",
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-11-01",
+      "fecha": "2026-11-02",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/desarrollo-de-identidad-deportiva-y-estrategia-de-contenido",
       "exterior": true,
       "id": "afcaa3156f24",
       "primera_vez": "2026-11-07",
-      "ultima_vez": "2026-11-22"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Guionista, Narrador y Editor de Contenido para Canal de Fútbol en Youtube",
@@ -247,13 +260,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-10-23",
+      "fecha": "2026-10-24",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/gestion-de-redes-sociales-para-contenido-de-futbol",
       "exterior": true,
       "id": "93ad2da9b7e0",
       "primera_vez": "2026-10-21",
-      "ultima_vez": "2026-11-22"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Designer Post Production SPORTS (Temporal)",
@@ -325,13 +338,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Colombia",
       "modalidad": "Remoto",
-      "fecha": "2026-10-23",
+      "fecha": "2026-10-24",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-con-conocimientos-de-futbol-para-club-deportivo-en-cali",
       "exterior": true,
       "id": "e9b4016e52ea",
       "primera_vez": "2026-10-17",
-      "ultima_vez": "2026-11-22"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Sports Marketing Analyst (Fixed Term)",
@@ -559,13 +572,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Estados Unidos",
       "modalidad": "Remoto",
-      "fecha": "2026-10-22",
+      "fecha": "2026-10-24",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/community-manager-y-creador-de-contenido-para-redes-sociales-de-negocio-deportivo",
       "exterior": true,
       "id": "5e820f11dca7",
       "primera_vez": "2026-10-07",
-      "ultima_vez": "2026-11-21"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Desarrollo de Estrategia de Contenido Digital para Marca Personal en Psicología Deportiva",
@@ -624,13 +637,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Venezuela",
       "modalidad": "Remoto",
-      "fecha": "2026-10-23",
+      "fecha": "2026-10-24",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-y-creador-de-videos-deportivos-de-tenis-para-redes-sociales",
       "exterior": true,
       "id": "b2c490df94ca",
       "primera_vez": "2026-10-06",
-      "ultima_vez": "2026-11-22"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Especialista en Marketing y Contenido Estratégico para Proyecto Digital Deportivo",
@@ -728,13 +741,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de Ecuador",
       "modalidad": "Remoto",
-      "fecha": "2026-10-23",
+      "fecha": "2026-10-24",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-imagenes-y-creador-de-contenido-deportivo-para-redes-sociales",
       "exterior": true,
       "id": "a32a9e03d2bf",
       "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-11-22"
+      "ultima_vez": "2026-11-23"
     },
     {
       "titulo": "Creación de Contenido para Marketing Deportivo y Clubes de Fútbol",
@@ -916,19 +929,6 @@
       "id": "42839040b3a5",
       "primera_vez": "2026-10-02",
       "ultima_vez": "2026-10-13"
-    },
-    {
-      "titulo": "Buscamos Editores de Contenido para Marca de Moda y Deporte",
-      "empresa": "",
-      "ubicacion": "Freelance · cliente de México",
-      "modalidad": "Remoto",
-      "fecha": "2026-09-08",
-      "fuente": "Workana",
-      "link": "https://www.workana.com/job/buscamos-editores-de-contenido-para-marca-de-moda-y-deporte",
-      "exterior": true,
-      "id": "7dda8af5df76",
-      "primera_vez": "2026-10-02",
-      "ultima_vez": "2026-10-08"
     }
   ]
 }
