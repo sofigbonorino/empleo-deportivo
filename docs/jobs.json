@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-25T02:12-03:00",
+  "actualizado": "2026-11-25T17:21-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 318
+      "leidos": 319
     },
     "Bumeran": {
       "ok": true,
@@ -65,7 +65,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-11-20",
+      "fecha": "2026-11-19",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/busqueda-de-expertos-en-marketing-y-edicion-de-video-para-tienda-de-camisetas-de-futbol",
       "exterior": true,
@@ -78,7 +78,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-11-19",
+      "fecha": "2026-11-18",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/freelance-viral-content-social-media-strategist-for-sports-marketing",
       "exterior": true,
@@ -533,13 +533,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-10-18",
+      "fecha": "2026-10-26",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-youtube-para-videos-de-noticias-deportivas-en-formato-horizontal",
       "exterior": true,
       "id": "3c3c900a5dc9",
       "primera_vez": "2026-10-09",
-      "ultima_vez": "2026-11-17"
+      "ultima_vez": "2026-11-25"
     },
     {
       "titulo": "Editor de Video para Contenido de Redes Sociales de Escuela Deportiva (Reels/Tiktok)",
