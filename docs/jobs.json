@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-27T01:44-03:00",
+  "actualizado": "2026-11-27T16:46-03:00",
   "fuentes": {
     "Computrabajo": {
       "ok": true,
-      "leidos": 318
+      "leidos": 309
     },
     "Bumeran": {
       "ok": true,
@@ -65,7 +65,7 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de México",
       "modalidad": "Remoto",
-      "fecha": "2026-11-20",
+      "fecha": "2026-11-13",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/busqueda-de-expertos-en-marketing-y-edicion-de-video-para-tienda-de-camisetas-de-futbol",
       "exterior": true,
@@ -169,13 +169,13 @@
       "empresa": "",
       "ubicacion": "Freelance · cliente de España",
       "modalidad": "Remoto",
-      "fecha": "2026-11-05",
+      "fecha": "2026-11-06",
       "fuente": "Workana",
       "link": "https://www.workana.com/job/editor-de-video-cinematografico-para-marca-de-moda-deportiva-premium",
       "exterior": true,
       "id": "4bf2ff33d185",
       "primera_vez": "2026-11-07",
-      "ultima_vez": "2026-11-26"
+      "ultima_vez": "2026-11-27"
     },
     {
       "titulo": "Desarrollo de Identidad Deportiva y Estrategia de Contenido",
